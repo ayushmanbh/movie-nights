@@ -53,8 +53,8 @@
 
 ## 📝 License
 
-This project is for educational and entertainment purposes. All movie metadata and posters are properties of their respective owners.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-*Built with 💻 and 🍿 by [Your Name]*
+*Built with 💻 and 🍿 by ayushmanbh*
