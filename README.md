@@ -1,8 +1,8 @@
-# Movie Nights 🎬
+# My Movie Night 🎬
 
-**Movie Nights** is a "vibe coded" web application designed to help you discover cinematic masterpieces and hidden gems. With a futuristic, neon-accented interface, it offers a curated collection of movies stamped with personal recommendations.
+**My Movie Night** is a "vibe coded" web application designed to help you discover cinematic masterpieces and hidden gems. With a futuristic, neon-accented interface, it offers a curated collection of movies stamped with personal recommendations.
 
-![Movie Nights Screenshot](https://via.placeholder.com/800x400?text=Movie+Nights+Preview) 
+![My Movie Night Screenshot](https://via.placeholder.com/800x400?text=My+Movie+Night+Preview) 
 *(Note: Replace with actual screenshot)*
 
 ## ✨ Features

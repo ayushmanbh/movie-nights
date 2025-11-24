@@ -1,4 +1,4 @@
-# How to Publish "Movie Nights" 🚀
+# How to Publish "My Movie Night" 🚀
 
 Your application is built and ready to go! Since this is a static website, you have several free and easy options to publish it to the internet.
 
