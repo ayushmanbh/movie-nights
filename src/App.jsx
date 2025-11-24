@@ -94,7 +94,7 @@ const App = () => {
                 setMovieData(prev => ({ ...prev, [movie.title]: JSON.parse(cached) }));
             } else {
                 try {
-                    const res = await fetch(`http://www.omdbapi.com/?apikey=trilogy&t=${encodeURIComponent(movie.title)}`);
+                    const res = await fetch(`https://www.omdbapi.com/?apikey=trilogy&t=${encodeURIComponent(movie.title)}`);
                     const data = await res.json();
                     if (data.Response === 'True') {
                         setMovieData(prev => ({ ...prev, [movie.title]: data }));
@@ -223,7 +223,7 @@ const App = () => {
                 if (cached) {
                     setMovieData(prev => ({ ...prev, [movie.title]: JSON.parse(cached) }));
                 } else {
-                    fetch(`http://www.omdbapi.com/?apikey=trilogy&t=${encodeURIComponent(movie.title)}`)
+                    fetch(`https://www.omdbapi.com/?apikey=trilogy&t=${encodeURIComponent(movie.title)}`)
                         .then(res => res.json())
                         .then(data => {
                             if (data.Response === 'True') {
@@ -253,10 +253,10 @@ const App = () => {
     return (
         <div className="app-container">
             <header className="main-header">
-                <h1>Movie <span className="highlight">Nights</span></h1>
+                <h1>My Movie <span className="highlight">Night</span></h1>
                 <p className="subtitle">Curated Collection</p>
                 <p className="site-description">
-                    Welcome to Movie Nights, a hand-picked collection of cinematic masterpieces and hidden gems.
+                    Welcome to My Movie Night, a hand-picked collection of cinematic masterpieces and hidden gems.
                     This list is curated to help you find your next great watch, organized by genre and stamped with our personal recommendations.
                 </p>
             </header>
@@ -305,7 +305,7 @@ const App = () => {
             )}
 
             <footer className="main-footer">
-                <p>© 2025 Movie Nights. All rights reserved.</p>
+                <p>© 2025 My Movie Night. All rights reserved.</p>
                 <div className="disclaimer">
                     Disclaimer: This application is developed for educational and entertainment purposes.
                     All movie metadata and posters are properties of their respective owners (OMDb API).
