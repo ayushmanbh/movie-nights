@@ -11,9 +11,7 @@ Source code*
 12 monkeys
 Seven**
 The Dark knight **
-Oceans 11*
-Oceans 11*
-Oceans 11*
+Ocean's 11*
 The man from earth*
 Predestination*
 The hurt locker
@@ -51,7 +49,7 @@ I, robot
 The place beyond the pines
 The A team
 Fracture
-American pshyco**
+American Psycho**
 The prestige*
 Clash of the titans
 The machinist*
@@ -70,16 +68,17 @@ The sixth sense**
 The silence of the lambs
 Primal fear*
 Searching
-Extraction 1,2
-Leon the professtional
+Extraction
+Extraction 2
+Leon: The Professional
 The wolf of wallstreet
 John wick*
 Parasite
 Oldboy
 American history X
 Knives out*
-Heredetary*
-Sherlock homes
+Hereditary*
+Sherlock Holmes
 The devil's advocate 
 Bird box*
 Knock at the cabin
@@ -98,10 +97,10 @@ The truman show*
 The eternal sunshine of the spotless mind*
 Die hard*
 Wrath of man
-Forest gump*
+Forrest Gump*
 The shawshank redemption**
 Whiplash*
-Persuit of happiness**
+The Pursuit of Happyness**
 Hacksaw ridge
 Get out*
 No country for old man**
@@ -126,7 +125,7 @@ Sunshine
 Star trek 
 2001 a space odyssey*
 Prometheus*
-Annihilition 
+Annihilation
 
 Alien:
 
@@ -139,7 +138,7 @@ Arrival
 Independence day
 Men in black*
 ET
-A quite place
+A Quiet Place
 Ender's game
 Nope
 Avatar*
@@ -150,7 +149,9 @@ Time travel:
 
 Back to the future
 Synchronic
-Terminator 1,2**,3
+The Terminator
+Terminator 2: Judgment Day**
+Terminator 3: Rise of the Machines
 Donnie darko*
 Groundhog day
 The time machine
@@ -159,10 +160,7 @@ Tom cruise:
 
 Oblivion
 War of the worlds
-Mission impossible 1
-Mission impossible 1
-Mission impossible 1
-Mission impossible 1
+Mission: Impossible
 Minority report*
 Edge of tomorrow*
 A few good men
@@ -172,7 +170,9 @@ Eyes wide shut
 Matt damon:
 
 The martian*
-Jason borne* 1,2,3
+The Bourne Identity*
+The Bourne Supremacy*
+The Bourne Ultimatum*
 Elysium
 The talented mr. Ripley
 Good will hunting*
@@ -192,9 +192,8 @@ Meet joe black
 Denzel washington:
 
 Deja vu*
-Equilizer 1
-Equilizer 1
-Equilizer 1
+The Equalizer
+The Equalizer 2
 Training day*
 Inside man
 The little things
@@ -205,7 +204,7 @@ Jake gyllenhal:
 
 Enemy
 Prisoners*
-Nighcrawler*
+Nightcrawler*
 The guilty
 Southpaw
 

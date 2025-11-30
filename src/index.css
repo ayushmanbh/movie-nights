@@ -898,3 +898,30 @@ h1 {
   background: linear-gradient(to top, rgba(0, 243, 255, 0.05), transparent);
   transition: all 0.2s ease;
 }
+
+/* Streaming Badge */
+.badge-green {
+  background-color: rgba(0, 255, 128, 0.2);
+  color: #00ff80;
+  border: 1px solid rgba(0, 255, 128, 0.5);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge-green:hover {
+  background-color: rgba(0, 255, 128, 0.4);
+  box-shadow: 0 0 10px rgba(0, 255, 128, 0.3);
+  color: #fff;
+}
+.movie-title {
+  font-family: var(--font-header);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 243, 255, 0.3);
+}

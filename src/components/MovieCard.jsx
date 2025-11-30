@@ -6,17 +6,19 @@ const MovieCard = ({ title, type, data }) => {
     const isMustWatch = type === 'must-watch';
     const isRecommended = type === 'recommended';
 
-    // Use OMDb data if available, otherwise fallbacks
-    const posterUrl = data?.Poster && data.Poster !== 'N/A'
-        ? data.Poster
+    // Data from JSON
+    const posterUrl = data?.poster && data.poster !== 'N/A'
+        ? data.poster
         : `https://tse2.mm.bing.net/th?q=${encodeURIComponent(title + " movie poster")}&w=300&h=450&c=7&rs=1&p=0`;
 
     const rating = data?.imdbRating && data.imdbRating !== 'N/A' ? data.imdbRating : 'N/A';
-    const plot = data?.Plot && data.Plot !== 'N/A' ? data.Plot : 'Loading details...';
-    const year = data?.Year || '';
-    const actors = data?.Actors || '';
+    const plot = data?.description || 'Loading details...';
+    const year = data?.year || '';
+    const actors = data?.actors || '';
+    const imdbUrl = data?.imdbUrl || `https://www.imdb.com/find?q=${encodeURIComponent(title)}`;
 
-    const imdbUrl = `https://www.imdb.com/find?q=${encodeURIComponent(title)}`;
+    // Streaming info is now directly in the data object
+    const streamingInfo = data?.streaming;
 
     return (
         <div className={`movie-card ${isMustWatch ? 'glow-red' : isRecommended ? 'glow-blue' : ''}`}>
@@ -52,6 +54,11 @@ const MovieCard = ({ title, type, data }) => {
                 <div className="badges">
                     {isMustWatch && <span className="badge badge-red">MUST WATCH</span>}
                     {isRecommended && <span className="badge badge-blue">RECOMMENDED</span>}
+                    {streamingInfo && (
+                        <a href={streamingInfo.url} target="_blank" rel="noopener noreferrer" className="badge badge-green streaming-link">
+                            WATCH ON {streamingInfo.service.toUpperCase()}
+                        </a>
+                    )}
                 </div>
 
                 <p className="description" title={plot}>
