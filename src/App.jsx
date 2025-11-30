@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import MovieCard from './components/MovieCard';
 import SkeletonCard from './components/SkeletonCard';
 import ControlBar from './components/ControlBar';
+import BackToTop from './components/BackToTop';
 import moviesData from './data/movies.json';
 
 const App = () => {
@@ -52,17 +53,21 @@ const App = () => {
 
             return true;
         }).sort((a, b) => {
-            if (filters.sort === 'rating') {
-                const ratingA = parseFloat(a.imdbRating) || 0;
-                const ratingB = parseFloat(b.imdbRating) || 0;
-                return ratingB - ratingA;
+            switch (filters.sort) {
+                case 'rating-desc':
+                    return (parseFloat(b.imdbRating) || 0) - (parseFloat(a.imdbRating) || 0);
+                case 'rating-asc':
+                    return (parseFloat(a.imdbRating) || 0) - (parseFloat(b.imdbRating) || 0);
+                case 'year-desc':
+                    return (parseInt(b.year) || 0) - (parseInt(a.year) || 0);
+                case 'year-asc':
+                    return (parseInt(a.year) || 0) - (parseInt(b.year) || 0);
+                case 'title-desc':
+                    return b.title.localeCompare(a.title);
+                case 'title-asc':
+                default:
+                    return a.title.localeCompare(b.title);
             }
-            if (filters.sort === 'year') {
-                const yearA = parseInt(a.year) || 0;
-                const yearB = parseInt(b.year) || 0;
-                return yearB - yearA;
-            }
-            return a.title.localeCompare(b.title);
         });
     }, [allMovies, filters]);
 
@@ -161,6 +166,8 @@ const App = () => {
                     )}
                 </>
             )}
+
+            <BackToTop />
 
             <footer className="main-footer">
                 <p>© 2025 My Movie Night. All rights reserved.</p>
