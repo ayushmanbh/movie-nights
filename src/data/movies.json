@@ -15,10 +15,7 @@
     "actors": "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt",
     "director": "Rian Johnson",
     "genre": "Action, Drama, Sci-Fi",
-    "streaming": {
-      "service": "Hulu",
-      "url": "https://www.hulu.com/movie/looper"
-    }
+    "streaming": null
   },
   {
     "id": 2,
@@ -34,10 +31,7 @@
     "actors": "Henry Cavill, Amy Adams, Michael Shannon",
     "director": "Zack Snyder",
     "genre": "Action, Adventure, Sci-Fi",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/man-of-steel"
-    }
+    "streaming": null
   },
   {
     "id": 3,
@@ -55,10 +49,7 @@
     "actors": "Ashton Kutcher, Amy Smart, Melora Walters",
     "director": "Eric Bress, J. Mackye Gruber",
     "genre": "Drama, Sci-Fi, Thriller",
-    "streaming": {
-      "service": "Amazon Prime",
-      "url": "https://www.amazon.com/Butterfly-Effect-Ashton-Kutcher/dp/B000I9S66W"
-    }
+    "streaming": null
   },
   {
     "id": 4,
@@ -74,10 +65,7 @@
     "actors": "Melissa George, Joshua McIvor, Jack Taylor",
     "director": "Christopher Smith",
     "genre": "Fantasy, Mystery, Sci-Fi",
-    "streaming": {
-      "service": "Amazon Prime",
-      "url": "https://www.amazon.com/Triangle-Melissa-George/dp/B0034G4P7Q"
-    }
+    "streaming": null
   },
   {
     "id": 5,
@@ -95,10 +83,7 @@
     "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
     "director": "Christopher Nolan",
     "genre": "Action, Adventure, Sci-Fi",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/inception/52d3eca"
-    }
+    "streaming": null
   },
   {
     "id": 6,
@@ -116,10 +101,7 @@
     "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano",
     "director": "Christopher Nolan",
     "genre": "Drama, Mystery, Thriller",
-    "streaming": {
-      "service": "Amazon Prime",
-      "url": "https://www.amazon.com/Memento-Guy-Pearce/dp/B0014C4582"
-    }
+    "streaming": null
   },
   {
     "id": 7,
@@ -205,10 +187,7 @@
     "actors": "Toshirô Mifune, Takashi Shimura, Keiko Tsushima",
     "director": "Akira Kurosawa",
     "genre": "Action, Drama",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/se7en"
-    }
+    "streaming": null
   },
   {
     "id": 12,
@@ -226,27 +205,24 @@
     "actors": "Christian Bale, Heath Ledger, Aaron Eckhart",
     "director": "Christopher Nolan",
     "genre": "Action, Crime, Drama",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/the-dark-knight"
-    }
+    "streaming": null
   },
   {
     "id": 13,
-    "title": "Oceans 11",
+    "title": "Ocean's 11",
     "category": "General",
     "tags": [
       "recommended"
     ],
-    "year": "",
+    "year": "2007",
     "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Oceans%2011",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "description": "Three eleven year old boys attempt the caper of their lifetime - to heist a \"Men's Magazine\" from their local newsstand.",
+    "imdbRating": "6.7",
+    "imdbId": "tt0994879",
+    "imdbUrl": "https://www.imdb.com/title/tt0994879/",
+    "actors": "Charlie Trepany, Justin Marco, Ian Waschak, Carl McDowell",
+    "director": "Andy Signore",
+    "genre": "Short, Action",
     "streaming": null
   },
   {
@@ -317,10 +293,7 @@
     "actors": "Tom Hanks, Matt Damon, Tom Sizemore",
     "director": "Steven Spielberg",
     "genre": "Drama, War",
-    "streaming": {
-      "service": "Paramount+",
-      "url": "https://www.paramountplus.com/movies/saving-private-ryan"
-    }
+    "streaming": null
   },
   {
     "id": 18,
@@ -488,18 +461,18 @@
   },
   {
     "id": 28,
-    "title": "Face off",
+    "title": "Face/Off",
     "category": "General",
     "tags": [],
-    "year": "2011–2018",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNTUzMTk4NDU2MV5BMl5BanBnXkFtZTcwMjk4ODgzNA@@._V1_SX300.jpg",
-    "description": "Special effects make up artists compete in challenges.",
-    "imdbRating": "8.2",
-    "imdbId": "tt1663641",
-    "imdbUrl": "https://www.imdb.com/title/tt1663641/",
-    "actors": "McKenzie Westmore, Glenn Hetrick, Ve Neill",
-    "director": "N/A",
-    "genre": "Game-Show, Reality-TV",
+    "year": "1997",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGQyOWNmYTgtZWY0NS00NzhjLTg3NmMtMzcwYzQ2OTA2OTJkXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "To foil a terrorist plot, an FBI agent assumes the identity of the criminal who murdered his son via facial transplant surgery, but the crook wakes up prematurely and vows revenge.",
+    "imdbRating": "7.3",
+    "imdbId": "tt0119094",
+    "imdbUrl": "https://www.imdb.com/title/tt0119094/",
+    "actors": "John Travolta, Nicolas Cage, Joan Allen",
+    "director": "John Woo",
+    "genre": "Action, Crime, Sci-Fi",
     "streaming": null
   },
   {
@@ -512,7 +485,7 @@
     "year": "2022",
     "poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_SX300.jpg",
     "description": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
-    "imdbRating": "7.8",
+    "imdbRating": "7.7",
     "imdbId": "tt6710474",
     "imdbUrl": "https://www.imdb.com/title/tt6710474/",
     "actors": "Michelle Yeoh, Stephanie Hsu, Jamie Lee Curtis",
@@ -702,10 +675,7 @@
     "actors": "Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo",
     "director": "Martin Scorsese",
     "genre": "Drama, Mystery, Thriller",
-    "streaming": {
-      "service": "Paramount+",
-      "url": "https://www.paramountplus.com/movies/shutter-island"
-    }
+    "streaming": null
   },
   {
     "id": 41,
@@ -739,10 +709,7 @@
     "actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
     "director": "Quentin Tarantino",
     "genre": "Crime, Drama",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/pulp-fiction"
-    }
+    "streaming": null
   },
   {
     "id": 43,
@@ -878,20 +845,20 @@
   },
   {
     "id": 51,
-    "title": "American pshyco",
+    "title": "American Psycho",
     "category": "General",
     "tags": [
       "must-watch"
     ],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=American%20pshyco",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2000",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzBjM2I5ZjUtNmIzNy00OGNkLWIwZDMtOTAwYWUwMzA2YjdlXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
+    "imdbRating": "7.6",
+    "imdbId": "tt0144084",
+    "imdbUrl": "https://www.imdb.com/title/tt0144084/",
+    "actors": "Christian Bale, Justin Theroux, Josh Lucas",
+    "director": "Mary Harron",
+    "genre": "Crime, Drama, Horror",
     "streaming": null
   },
   {
@@ -978,10 +945,7 @@
     "actors": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
     "director": "Lana Wachowski, Lilly Wachowski",
     "genre": "Action, Sci-Fi",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/the-matrix"
-    }
+    "streaming": null
   },
   {
     "id": 57,
@@ -1199,38 +1163,54 @@
   },
   {
     "id": 70,
-    "title": "Extraction 1,2",
+    "title": "Extraction",
     "category": "General",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Extraction%201%2C2",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2020",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDBhMmI3OWYtZTA2Ny00Y2RjLTliMWQtYWY5MGIwN2RlZGFjXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "Tyler Rake, a fearless black market mercenary, embarks on the most deadly extraction of his career when he's enlisted to rescue the kidnapped son of an imprisoned international crime lord.",
+    "imdbRating": "6.8",
+    "imdbId": "tt8936646",
+    "imdbUrl": "https://www.imdb.com/title/tt8936646/",
+    "actors": "Chris Hemsworth, Bryon Lerum, Ryder Lerum",
+    "director": "Sam Hargrave",
+    "genre": "Action, Crime, Thriller",
     "streaming": null
   },
   {
     "id": 71,
-    "title": "Leon the professtional",
+    "title": "Extraction 2",
     "category": "General",
     "tags": [],
-    "year": "",
+    "year": "2023",
     "poster": null,
     "description": "No description available.",
     "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Leon%20the%20professtional",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "imdbId": "tt28363337",
+    "imdbUrl": "https://www.imdb.com/title/tt28363337/",
+    "actors": "N/A",
+    "director": "N/A",
+    "genre": "N/A",
     "streaming": null
   },
   {
     "id": 72,
+    "title": "Leon: The Professional",
+    "category": "General",
+    "tags": [],
+    "year": "1994",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "When her family is murdered by a group of corrupt officers led by the tyrannical Norman Stansfield, a young 12-year-old girl enlists the help of an Italian-American hitman to seek revenge.",
+    "imdbRating": "8.5",
+    "imdbId": "tt0110413",
+    "imdbUrl": "https://www.imdb.com/title/tt0110413/",
+    "actors": "Jean Reno, Gary Oldman, Natalie Portman",
+    "director": "Luc Besson",
+    "genre": "Action, Crime, Drama",
+    "streaming": null
+  },
+  {
+    "id": 73,
     "title": "The wolf of wallstreet",
     "category": "General",
     "tags": [],
@@ -1246,7 +1226,7 @@
     "streaming": null
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "John wick",
     "category": "General",
     "tags": [
@@ -1264,7 +1244,7 @@
     "streaming": null
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "Parasite",
     "category": "General",
     "tags": [],
@@ -1280,7 +1260,7 @@
     "streaming": null
   },
   {
-    "id": 75,
+    "id": 76,
     "title": "Oldboy",
     "category": "General",
     "tags": [],
@@ -1296,7 +1276,7 @@
     "streaming": null
   },
   {
-    "id": 76,
+    "id": 77,
     "title": "American history X",
     "category": "General",
     "tags": [],
@@ -1312,7 +1292,7 @@
     "streaming": null
   },
   {
-    "id": 77,
+    "id": 78,
     "title": "Knives out",
     "category": "General",
     "tags": [
@@ -1330,41 +1310,41 @@
     "streaming": null
   },
   {
-    "id": 78,
-    "title": "Heredetary",
+    "id": 79,
+    "title": "Hereditary",
     "category": "General",
     "tags": [
       "recommended"
     ],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Heredetary",
-    "actors": "",
-    "director": "",
-    "genre": "",
-    "streaming": null
-  },
-  {
-    "id": 79,
-    "title": "Sherlock homes",
-    "category": "General",
-    "tags": [],
-    "year": "2016",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNTY2YmEwOGEtYTEyNS00NTZiLTliNmQtYWE3NTg3OWIyZmZhXkEyXkFqcGdeQXVyNjgzNDc4NTc@._V1_SX300.jpg",
-    "description": "Sherlock Homes and Dr. Whatson are trying to unravel the mystery of the Stream.",
-    "imdbRating": "6.9",
-    "imdbId": "tt6050244",
-    "imdbUrl": "https://www.imdb.com/title/tt6050244/",
-    "actors": "Andrey Holan",
-    "director": "Andrey Holan",
-    "genre": "Short, Comedy",
+    "year": "2018",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTEyZGQwODctYWJjZi00NjFmLTg3YmEtMzlhNjljOGZhMWMyXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A grieving family is haunted by tragic and disturbing occurrences.",
+    "imdbRating": "7.3",
+    "imdbId": "tt7784604",
+    "imdbUrl": "https://www.imdb.com/title/tt7784604/",
+    "actors": "Toni Collette, Milly Shapiro, Gabriel Byrne",
+    "director": "Ari Aster",
+    "genre": "Drama, Horror, Mystery",
     "streaming": null
   },
   {
     "id": 80,
+    "title": "Sherlock Holmes",
+    "category": "General",
+    "tags": [],
+    "year": "2009",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg",
+    "description": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.",
+    "imdbRating": "7.5",
+    "imdbId": "tt0988045",
+    "imdbUrl": "https://www.imdb.com/title/tt0988045/",
+    "actors": "Robert Downey Jr., Jude Law, Rachel McAdams",
+    "director": "Guy Ritchie",
+    "genre": "Action, Adventure, Mystery",
+    "streaming": null
+  },
+  {
+    "id": 81,
     "title": "The devil's advocate",
     "category": "General",
     "tags": [],
@@ -1380,7 +1360,7 @@
     "streaming": null
   },
   {
-    "id": 81,
+    "id": 82,
     "title": "Bird box",
     "category": "General",
     "tags": [
@@ -1398,7 +1378,7 @@
     "streaming": null
   },
   {
-    "id": 82,
+    "id": 83,
     "title": "Knock at the cabin",
     "category": "General",
     "tags": [],
@@ -1414,7 +1394,7 @@
     "streaming": null
   },
   {
-    "id": 83,
+    "id": 84,
     "title": "Mystic river",
     "category": "General",
     "tags": [],
@@ -1430,7 +1410,7 @@
     "streaming": null
   },
   {
-    "id": 84,
+    "id": 85,
     "title": "Mad max fury road",
     "category": "General",
     "tags": [
@@ -1445,13 +1425,10 @@
     "actors": "Tom Hardy, Charlize Theron, Nicholas Hoult",
     "director": "George Miller",
     "genre": "Action, Adventure, Sci-Fi",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/mad-max-fury-road"
-    }
+    "streaming": null
   },
   {
-    "id": 85,
+    "id": 86,
     "title": "300",
     "category": "General",
     "tags": [],
@@ -1467,7 +1444,7 @@
     "streaming": null
   },
   {
-    "id": 86,
+    "id": 87,
     "title": "Gladiator",
     "category": "General",
     "tags": [],
@@ -1480,13 +1457,10 @@
     "actors": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
     "director": "Ridley Scott",
     "genre": "Action, Adventure, Drama",
-    "streaming": {
-      "service": "Paramount+",
-      "url": "https://www.paramountplus.com/movies/gladiator"
-    }
+    "streaming": null
   },
   {
-    "id": 87,
+    "id": 88,
     "title": "Speed",
     "category": "General",
     "tags": [
@@ -1504,7 +1478,7 @@
     "streaming": null
   },
   {
-    "id": 88,
+    "id": 89,
     "title": "Baby driver",
     "category": "General",
     "tags": [],
@@ -1520,7 +1494,7 @@
     "streaming": null
   },
   {
-    "id": 89,
+    "id": 90,
     "title": "Kingsmen",
     "category": "General",
     "tags": [],
@@ -1536,7 +1510,7 @@
     "streaming": null
   },
   {
-    "id": 90,
+    "id": 91,
     "title": "Total recall",
     "category": "General",
     "tags": [],
@@ -1552,7 +1526,7 @@
     "streaming": null
   },
   {
-    "id": 91,
+    "id": 92,
     "title": "Escape plan",
     "category": "General",
     "tags": [
@@ -1570,7 +1544,7 @@
     "streaming": null
   },
   {
-    "id": 92,
+    "id": 93,
     "title": "Heat",
     "category": "General",
     "tags": [
@@ -1588,7 +1562,7 @@
     "streaming": null
   },
   {
-    "id": 93,
+    "id": 94,
     "title": "The godfather",
     "category": "General",
     "tags": [
@@ -1603,13 +1577,10 @@
     "actors": "Marlon Brando, Al Pacino, James Caan",
     "director": "Francis Ford Coppola",
     "genre": "Crime, Drama",
-    "streaming": {
-      "service": "Paramount+",
-      "url": "https://www.paramountplus.com/movies/the-godfather"
-    }
+    "streaming": null
   },
   {
-    "id": 94,
+    "id": 95,
     "title": "The truman show",
     "category": "General",
     "tags": [
@@ -1627,7 +1598,7 @@
     "streaming": null
   },
   {
-    "id": 95,
+    "id": 96,
     "title": "The eternal sunshine of the spotless mind",
     "category": "General",
     "tags": [
@@ -1645,7 +1616,7 @@
     "streaming": null
   },
   {
-    "id": 96,
+    "id": 97,
     "title": "Die hard",
     "category": "General",
     "tags": [
@@ -1663,7 +1634,7 @@
     "streaming": null
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Wrath of man",
     "category": "General",
     "tags": [],
@@ -1679,25 +1650,25 @@
     "streaming": null
   },
   {
-    "id": 98,
-    "title": "Forest gump",
+    "id": 99,
+    "title": "Forrest Gump",
     "category": "General",
     "tags": [
       "recommended"
     ],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Forest%20gump",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "1994",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+    "imdbRating": "8.8",
+    "imdbId": "tt0109830",
+    "imdbUrl": "https://www.imdb.com/title/tt0109830/",
+    "actors": "Tom Hanks, Robin Wright, Gary Sinise",
+    "director": "Robert Zemeckis",
+    "genre": "Drama, Romance",
     "streaming": null
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "The shawshank redemption",
     "category": "General",
     "tags": [
@@ -1712,13 +1683,10 @@
     "actors": "Tim Robbins, Morgan Freeman, Bob Gunton",
     "director": "Frank Darabont",
     "genre": "Drama",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/the-shawshank-redemption"
-    }
+    "streaming": null
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "Whiplash",
     "category": "General",
     "tags": [
@@ -1736,25 +1704,25 @@
     "streaming": null
   },
   {
-    "id": 101,
-    "title": "Persuit of happiness",
+    "id": 102,
+    "title": "The Pursuit of Happyness",
     "category": "General",
     "tags": [
       "must-watch"
     ],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Persuit%20of%20happiness",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2006",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+    "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
+    "imdbRating": "8.0",
+    "imdbId": "tt0454921",
+    "imdbUrl": "https://www.imdb.com/title/tt0454921/",
+    "actors": "Will Smith, Thandiwe Newton, Jaden Smith",
+    "director": "Gabriele Muccino",
+    "genre": "Biography, Drama",
     "streaming": null
   },
   {
-    "id": 102,
+    "id": 103,
     "title": "Hacksaw ridge",
     "category": "General",
     "tags": [],
@@ -1770,7 +1738,7 @@
     "streaming": null
   },
   {
-    "id": 103,
+    "id": 104,
     "title": "Get out",
     "category": "General",
     "tags": [
@@ -1788,7 +1756,7 @@
     "streaming": null
   },
   {
-    "id": 104,
+    "id": 105,
     "title": "No country for old man",
     "category": "General",
     "tags": [
@@ -1806,7 +1774,7 @@
     "streaming": null
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "Lord of the rings",
     "category": "General",
     "tags": [],
@@ -1822,7 +1790,7 @@
     "streaming": null
   },
   {
-    "id": 106,
+    "id": 107,
     "title": "Enemy of the state",
     "category": "General",
     "tags": [],
@@ -1838,7 +1806,7 @@
     "streaming": null
   },
   {
-    "id": 107,
+    "id": 108,
     "title": "Goodfellas",
     "category": "General",
     "tags": [
@@ -1853,13 +1821,10 @@
     "actors": "Robert De Niro, Ray Liotta, Joe Pesci",
     "director": "Martin Scorsese",
     "genre": "Biography, Crime, Drama",
-    "streaming": {
-      "service": "HBO Max",
-      "url": "https://www.max.com/movies/goodfellas"
-    }
+    "streaming": null
   },
   {
-    "id": 108,
+    "id": 109,
     "title": "Shining",
     "category": "General",
     "tags": [
@@ -1877,7 +1842,7 @@
     "streaming": null
   },
   {
-    "id": 109,
+    "id": 110,
     "title": "Children of men",
     "category": "General",
     "tags": [
@@ -1895,7 +1860,7 @@
     "streaming": null
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "American sniper",
     "category": "General",
     "tags": [],
@@ -1911,7 +1876,7 @@
     "streaming": null
   },
   {
-    "id": 111,
+    "id": 112,
     "title": "Limitless",
     "category": "General",
     "tags": [],
@@ -1927,7 +1892,7 @@
     "streaming": null
   },
   {
-    "id": 112,
+    "id": 113,
     "title": "Fractured",
     "category": "General",
     "tags": [],
@@ -1943,7 +1908,7 @@
     "streaming": null
   },
   {
-    "id": 113,
+    "id": 114,
     "title": "Blood diamond",
     "category": "General",
     "tags": [
@@ -1961,7 +1926,7 @@
     "streaming": null
   },
   {
-    "id": 114,
+    "id": 115,
     "title": "Interstellar",
     "category": "Space movies",
     "tags": [
@@ -1976,13 +1941,10 @@
     "actors": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
     "director": "Christopher Nolan",
     "genre": "Adventure, Drama, Sci-Fi",
-    "streaming": {
-      "service": "Paramount+",
-      "url": "https://www.paramountplus.com/movies/interstellar"
-    }
+    "streaming": null
   },
   {
-    "id": 115,
+    "id": 116,
     "title": "Gravity",
     "category": "Space movies",
     "tags": [
@@ -2000,7 +1962,7 @@
     "streaming": null
   },
   {
-    "id": 116,
+    "id": 117,
     "title": "Ad astra",
     "category": "Space movies",
     "tags": [],
@@ -2016,7 +1978,7 @@
     "streaming": null
   },
   {
-    "id": 117,
+    "id": 118,
     "title": "Life",
     "category": "Space movies",
     "tags": [],
@@ -2032,7 +1994,7 @@
     "streaming": null
   },
   {
-    "id": 118,
+    "id": 119,
     "title": "Sunshine",
     "category": "Space movies",
     "tags": [],
@@ -2048,7 +2010,7 @@
     "streaming": null
   },
   {
-    "id": 119,
+    "id": 120,
     "title": "Star trek",
     "category": "Space movies",
     "tags": [],
@@ -2064,7 +2026,7 @@
     "streaming": null
   },
   {
-    "id": 120,
+    "id": 121,
     "title": "2001 a space odyssey",
     "category": "Space movies",
     "tags": [
@@ -2082,7 +2044,7 @@
     "streaming": null
   },
   {
-    "id": 121,
+    "id": 122,
     "title": "Prometheus",
     "category": "Space movies",
     "tags": [
@@ -2100,23 +2062,23 @@
     "streaming": null
   },
   {
-    "id": 122,
-    "title": "Annihilition",
+    "id": 123,
+    "title": "Annihilation",
     "category": "Space movies",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Annihilition",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2018",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SX300.jpg",
+    "description": "A biologist signs up for a dangerous, secret expedition in which the laws of nature don't apply.",
+    "imdbRating": "6.8",
+    "imdbId": "tt2798920",
+    "imdbUrl": "https://www.imdb.com/title/tt2798920/",
+    "actors": "Natalie Portman, Jennifer Jason Leigh, Tessa Thompson",
+    "director": "Alex Garland",
+    "genre": "Adventure, Drama, Horror",
     "streaming": null
   },
   {
-    "id": 123,
+    "id": 124,
     "title": "Alien",
     "category": "Alien",
     "tags": [],
@@ -2132,7 +2094,7 @@
     "streaming": null
   },
   {
-    "id": 124,
+    "id": 125,
     "title": "10 cloverfield lane",
     "category": "Alien",
     "tags": [
@@ -2150,7 +2112,7 @@
     "streaming": null
   },
   {
-    "id": 125,
+    "id": 126,
     "title": "District 9",
     "category": "Alien",
     "tags": [
@@ -2168,7 +2130,7 @@
     "streaming": null
   },
   {
-    "id": 126,
+    "id": 127,
     "title": "Super 8",
     "category": "Alien",
     "tags": [],
@@ -2184,7 +2146,7 @@
     "streaming": null
   },
   {
-    "id": 127,
+    "id": 128,
     "title": "Arrival",
     "category": "Alien",
     "tags": [],
@@ -2200,7 +2162,7 @@
     "streaming": null
   },
   {
-    "id": 128,
+    "id": 129,
     "title": "Independence day",
     "category": "Alien",
     "tags": [],
@@ -2216,7 +2178,7 @@
     "streaming": null
   },
   {
-    "id": 129,
+    "id": 130,
     "title": "Men in black",
     "category": "Alien",
     "tags": [
@@ -2234,39 +2196,39 @@
     "streaming": null
   },
   {
-    "id": 130,
-    "title": "ET",
-    "category": "Alien",
-    "tags": [],
-    "year": "2019–",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZjNiYTMyNGMtMTA4Ny00ZDJmLTg2NDEtMjU5YTJmZDhiMGM0XkEyXkFqcGc@._V1_SX300.jpg",
-    "description": "Autistic archivist Astrid Nielsen and impulsive inspector Raphaëlle Coste work together to solve crimes in and around Paris.",
-    "imdbRating": "8.2",
-    "imdbId": "tt11950864",
-    "imdbUrl": "https://www.imdb.com/title/tt11950864/",
-    "actors": "Sara Mortensen, Lola Dewaere, Benoît Michel",
-    "director": "N/A",
-    "genre": "Crime, Drama, Thriller",
-    "streaming": null
-  },
-  {
     "id": 131,
-    "title": "A quite place",
+    "title": "E.T. the Extra-Terrestrial",
     "category": "Alien",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=A%20quite%20place",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "1982",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTNhNmY0YWMtMTczYi00MTA0LThhMmUtMTIxYzE0Y2QwMzRlXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.",
+    "imdbRating": "7.9",
+    "imdbId": "tt0083866",
+    "imdbUrl": "https://www.imdb.com/title/tt0083866/",
+    "actors": "Henry Thomas, Drew Barrymore, Peter Coyote",
+    "director": "Steven Spielberg",
+    "genre": "Adventure, Family, Sci-Fi",
     "streaming": null
   },
   {
     "id": 132,
+    "title": "A Quiet Place",
+    "category": "Alien",
+    "tags": [],
+    "year": "2018",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_SX300.jpg",
+    "description": "A family struggles for survival in a world invaded by blind alien creatures with ultra-sensitive hearing.",
+    "imdbRating": "7.5",
+    "imdbId": "tt6644200",
+    "imdbUrl": "https://www.imdb.com/title/tt6644200/",
+    "actors": "Emily Blunt, John Krasinski, Millicent Simmonds",
+    "director": "John Krasinski",
+    "genre": "Drama, Horror, Sci-Fi",
+    "streaming": null
+  },
+  {
+    "id": 133,
     "title": "Ender's game",
     "category": "Alien",
     "tags": [],
@@ -2282,7 +2244,7 @@
     "streaming": null
   },
   {
-    "id": 133,
+    "id": 134,
     "title": "Nope",
     "category": "Alien",
     "tags": [],
@@ -2298,7 +2260,7 @@
     "streaming": null
   },
   {
-    "id": 134,
+    "id": 135,
     "title": "Avatar",
     "category": "Alien",
     "tags": [
@@ -2316,7 +2278,7 @@
     "streaming": null
   },
   {
-    "id": 135,
+    "id": 136,
     "title": "Predator",
     "category": "Alien",
     "tags": [],
@@ -2332,7 +2294,7 @@
     "streaming": null
   },
   {
-    "id": 136,
+    "id": 137,
     "title": "Back to the future",
     "category": "Time travel",
     "tags": [],
@@ -2348,7 +2310,7 @@
     "streaming": null
   },
   {
-    "id": 137,
+    "id": 138,
     "title": "Synchronic",
     "category": "Time travel",
     "tags": [],
@@ -2364,23 +2326,57 @@
     "streaming": null
   },
   {
-    "id": 138,
-    "title": "Terminator 1,2**,3",
+    "id": 139,
+    "title": "The Terminator",
     "category": "Time travel",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Terminator%201%2C2**%2C3",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "1984",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction.",
+    "imdbRating": "8.1",
+    "imdbId": "tt0088247",
+    "imdbUrl": "https://www.imdb.com/title/tt0088247/",
+    "actors": "Arnold Schwarzenegger, Linda Hamilton, Michael Biehn",
+    "director": "James Cameron",
+    "genre": "Action, Adventure, Sci-Fi",
     "streaming": null
   },
   {
-    "id": 139,
+    "id": 140,
+    "title": "Terminator 2: Judgment Day",
+    "category": "Time travel",
+    "tags": [
+      "must-watch"
+    ],
+    "year": "1991",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGMyMGNkMDUtMjc2Ni00NWFlLTgyODEtZTY2MzBiZTg0OWZiXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A cyborg from the future, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from an even more advanced and powerful cyborg.",
+    "imdbRating": "8.6",
+    "imdbId": "tt0103064",
+    "imdbUrl": "https://www.imdb.com/title/tt0103064/",
+    "actors": "Arnold Schwarzenegger, Linda Hamilton, Edward Furlong",
+    "director": "James Cameron",
+    "genre": "Action, Adventure, Sci-Fi",
+    "streaming": null
+  },
+  {
+    "id": 141,
+    "title": "Terminator 3: Rise of the Machines",
+    "category": "Time travel",
+    "tags": [],
+    "year": "2003",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTk5NzM1ODgyN15BMl5BanBnXkFtZTcwMzA5MjAzMw@@._V1_SX300.jpg",
+    "description": "John Connor must face a female Terminator with power over all the machines. But a new Terminator unit, a T-850, is sent back through time to help guide him through the coming battle.",
+    "imdbRating": "6.3",
+    "imdbId": "tt0181852",
+    "imdbUrl": "https://www.imdb.com/title/tt0181852/",
+    "actors": "Arnold Schwarzenegger, Nick Stahl, Kristanna Loken",
+    "director": "Jonathan Mostow",
+    "genre": "Action, Sci-Fi",
+    "streaming": null
+  },
+  {
+    "id": 142,
     "title": "Donnie darko",
     "category": "Time travel",
     "tags": [
@@ -2398,7 +2394,7 @@
     "streaming": null
   },
   {
-    "id": 140,
+    "id": 143,
     "title": "Groundhog day",
     "category": "Time travel",
     "tags": [],
@@ -2414,7 +2410,7 @@
     "streaming": null
   },
   {
-    "id": 141,
+    "id": 144,
     "title": "The time machine",
     "category": "Time travel",
     "tags": [],
@@ -2430,7 +2426,7 @@
     "streaming": null
   },
   {
-    "id": 142,
+    "id": 145,
     "title": "Oblivion",
     "category": "Tom cruise",
     "tags": [],
@@ -2446,7 +2442,7 @@
     "streaming": null
   },
   {
-    "id": 143,
+    "id": 146,
     "title": "War of the worlds",
     "category": "Tom cruise",
     "tags": [],
@@ -2462,23 +2458,23 @@
     "streaming": null
   },
   {
-    "id": 144,
-    "title": "Mission impossible 1",
+    "id": 147,
+    "title": "Mission: Impossible",
     "category": "Tom cruise",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Mission%20impossible%201",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2011",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX300.jpg",
+    "description": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
+    "imdbRating": "7.4",
+    "imdbId": "tt1229238",
+    "imdbUrl": "https://www.imdb.com/title/tt1229238/",
+    "actors": "Tom Cruise, Paula Patton, Simon Pegg",
+    "director": "Brad Bird",
+    "genre": "Action, Adventure, Thriller",
     "streaming": null
   },
   {
-    "id": 145,
+    "id": 148,
     "title": "Minority report",
     "category": "Tom cruise",
     "tags": [
@@ -2496,7 +2492,7 @@
     "streaming": null
   },
   {
-    "id": 146,
+    "id": 149,
     "title": "Edge of tomorrow",
     "category": "Tom cruise",
     "tags": [
@@ -2514,7 +2510,7 @@
     "streaming": null
   },
   {
-    "id": 147,
+    "id": 150,
     "title": "A few good men",
     "category": "Tom cruise",
     "tags": [],
@@ -2530,7 +2526,7 @@
     "streaming": null
   },
   {
-    "id": 148,
+    "id": 151,
     "title": "Vanilla sky",
     "category": "Tom cruise",
     "tags": [],
@@ -2546,7 +2542,7 @@
     "streaming": null
   },
   {
-    "id": 149,
+    "id": 152,
     "title": "Eyes wide shut",
     "category": "Tom cruise",
     "tags": [],
@@ -2562,7 +2558,7 @@
     "streaming": null
   },
   {
-    "id": 150,
+    "id": 153,
     "title": "The martian",
     "category": "Matt damon",
     "tags": [
@@ -2580,23 +2576,61 @@
     "streaming": null
   },
   {
-    "id": 151,
-    "title": "Jason borne* 1,2,3",
+    "id": 154,
+    "title": "The Bourne Identity",
     "category": "Matt damon",
-    "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Jason%20borne*%201%2C2%2C3",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "tags": [
+      "recommended"
+    ],
+    "year": "2002",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTk1ZTcyMWMtMWUxYS00MmEzLTlmODYtOTk1MGRjOTg1ZjlmXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.",
+    "imdbRating": "7.8",
+    "imdbId": "tt0258463",
+    "imdbUrl": "https://www.imdb.com/title/tt0258463/",
+    "actors": "Matt Damon, Franka Potente, Chris Cooper",
+    "director": "Doug Liman",
+    "genre": "Action, Mystery, Thriller",
     "streaming": null
   },
   {
-    "id": 152,
+    "id": 155,
+    "title": "The Bourne Supremacy",
+    "category": "Matt damon",
+    "tags": [
+      "recommended"
+    ],
+    "year": "2004",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTU4ZDgyYjgtODA0Mi00MmE3LTgzYWQtZjc1YTFiMTczZTQ3XkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.",
+    "imdbRating": "7.7",
+    "imdbId": "tt0372183",
+    "imdbUrl": "https://www.imdb.com/title/tt0372183/",
+    "actors": "Matt Damon, Franka Potente, Joan Allen",
+    "director": "Paul Greengrass",
+    "genre": "Action, Mystery, Thriller",
+    "streaming": null
+  },
+  {
+    "id": 156,
+    "title": "The Bourne Ultimatum",
+    "category": "Matt damon",
+    "tags": [
+      "recommended"
+    ],
+    "year": "2007",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzE3ZGM4MzctZjU5MC00NWE2LTg5ZjYtMDFiM2ZlMWQ1MjkwXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "Jason Bourne dodges a ruthless C.I.A. official and his Agents from a new assassination program while searching for the origins of his life as a trained killer.",
+    "imdbRating": "8.0",
+    "imdbId": "tt0440963",
+    "imdbUrl": "https://www.imdb.com/title/tt0440963/",
+    "actors": "Matt Damon, Edgar Ramírez, Joan Allen",
+    "director": "Paul Greengrass",
+    "genre": "Action, Mystery, Thriller",
+    "streaming": null
+  },
+  {
+    "id": 157,
     "title": "Elysium",
     "category": "Matt damon",
     "tags": [],
@@ -2612,7 +2646,7 @@
     "streaming": null
   },
   {
-    "id": 153,
+    "id": 158,
     "title": "The talented mr. Ripley",
     "category": "Matt damon",
     "tags": [],
@@ -2628,7 +2662,7 @@
     "streaming": null
   },
   {
-    "id": 154,
+    "id": 159,
     "title": "Good will hunting",
     "category": "Matt damon",
     "tags": [
@@ -2646,7 +2680,7 @@
     "streaming": null
   },
   {
-    "id": 155,
+    "id": 160,
     "title": "The adjustment bureau",
     "category": "Matt damon",
     "tags": [],
@@ -2662,7 +2696,7 @@
     "streaming": null
   },
   {
-    "id": 156,
+    "id": 161,
     "title": "Curious case of benjamin button",
     "category": "Brad pitt",
     "tags": [
@@ -2680,7 +2714,7 @@
     "streaming": null
   },
   {
-    "id": 157,
+    "id": 162,
     "title": "World war z",
     "category": "Brad pitt",
     "tags": [
@@ -2698,7 +2732,7 @@
     "streaming": null
   },
   {
-    "id": 158,
+    "id": 163,
     "title": "Fight club",
     "category": "Brad pitt",
     "tags": [
@@ -2713,13 +2747,10 @@
     "actors": "Edward Norton, Brad Pitt, Meat Loaf",
     "director": "David Fincher",
     "genre": "Crime, Drama, Thriller",
-    "streaming": {
-      "service": "Hulu",
-      "url": "https://www.hulu.com/movie/fight-club"
-    }
+    "streaming": null
   },
   {
-    "id": 159,
+    "id": 164,
     "title": "Fury",
     "category": "Brad pitt",
     "tags": [
@@ -2737,7 +2768,7 @@
     "streaming": null
   },
   {
-    "id": 160,
+    "id": 165,
     "title": "Inglorious bastards",
     "category": "Brad pitt",
     "tags": [],
@@ -2753,13 +2784,13 @@
     "streaming": null
   },
   {
-    "id": 161,
+    "id": 166,
     "title": "Meet joe black",
     "category": "Brad pitt",
     "tags": [],
     "year": "1998",
     "poster": "https://m.media-amazon.com/images/M/MV5BMjVjNjAwYWItMDc0ZC00MTEwLWJiN2MtM2U4YThjNWE5YTZmXkEyXkFqcGc@._V1_SX300.jpg",
-    "description": "Death, who takes the form of a young man killed in an accident, asks a media mogul to act as his guide to teach him about life on Earth and, in the process, he falls in love with the mogul's daughter.",
+    "description": "Death makes a deal with a principled widower.",
     "imdbRating": "7.2",
     "imdbId": "tt0119643",
     "imdbUrl": "https://www.imdb.com/title/tt0119643/",
@@ -2769,7 +2800,7 @@
     "streaming": null
   },
   {
-    "id": 162,
+    "id": 167,
     "title": "Deja vu",
     "category": "Denzel washington",
     "tags": [
@@ -2787,23 +2818,39 @@
     "streaming": null
   },
   {
-    "id": 163,
-    "title": "Equilizer 1",
+    "id": 168,
+    "title": "The Equalizer",
     "category": "Denzel washington",
     "tags": [],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Equilizer%201",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2014",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_SX300.jpg",
+    "description": "A man who believes he has put his mysterious past behind him cannot stand idly by when he meets a young girl under the control of ultra-violent Russian gangsters.",
+    "imdbRating": "7.3",
+    "imdbId": "tt0455944",
+    "imdbUrl": "https://www.imdb.com/title/tt0455944/",
+    "actors": "Denzel Washington, Marton Csokas, Chloë Grace Moretz",
+    "director": "Antoine Fuqua",
+    "genre": "Action, Crime, Thriller",
     "streaming": null
   },
   {
-    "id": 164,
+    "id": 169,
+    "title": "The Equalizer 2",
+    "category": "Denzel washington",
+    "tags": [],
+    "year": "2018",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU2OTYzODQyMF5BMl5BanBnXkFtZTgwNjU3Njk5NTM@._V1_SX300.jpg",
+    "description": "Robert McCall serves an unflinching justice for the exploited and oppressed, but how far will he go when that is someone he loves?",
+    "imdbRating": "6.7",
+    "imdbId": "tt3766354",
+    "imdbUrl": "https://www.imdb.com/title/tt3766354/",
+    "actors": "Denzel Washington, Pedro Pascal, Ashton Sanders",
+    "director": "Antoine Fuqua",
+    "genre": "Action, Crime, Mystery",
+    "streaming": null
+  },
+  {
+    "id": 170,
     "title": "Training day",
     "category": "Denzel washington",
     "tags": [
@@ -2821,7 +2868,7 @@
     "streaming": null
   },
   {
-    "id": 165,
+    "id": 171,
     "title": "Inside man",
     "category": "Denzel washington",
     "tags": [],
@@ -2837,7 +2884,7 @@
     "streaming": null
   },
   {
-    "id": 166,
+    "id": 172,
     "title": "The little things",
     "category": "Denzel washington",
     "tags": [],
@@ -2853,7 +2900,7 @@
     "streaming": null
   },
   {
-    "id": 167,
+    "id": 173,
     "title": "The taking of pelham 123",
     "category": "Denzel washington",
     "tags": [
@@ -2871,7 +2918,7 @@
     "streaming": null
   },
   {
-    "id": 168,
+    "id": 174,
     "title": "Unstoppable",
     "category": "Denzel washington",
     "tags": [],
@@ -2887,7 +2934,7 @@
     "streaming": null
   },
   {
-    "id": 169,
+    "id": 175,
     "title": "Enemy",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -2903,7 +2950,7 @@
     "streaming": null
   },
   {
-    "id": 170,
+    "id": 176,
     "title": "Prisoners",
     "category": "Jake gyllenhal",
     "tags": [
@@ -2921,25 +2968,25 @@
     "streaming": null
   },
   {
-    "id": 171,
-    "title": "Nighcrawler",
+    "id": 177,
+    "title": "Nightcrawler",
     "category": "Jake gyllenhal",
     "tags": [
       "recommended"
     ],
-    "year": "",
-    "poster": null,
-    "description": "No description available.",
-    "imdbRating": "N/A",
-    "imdbId": "",
-    "imdbUrl": "https://www.imdb.com/find?q=Nighcrawler",
-    "actors": "",
-    "director": "",
-    "genre": "",
+    "year": "2014",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjMwMmI5MWQtOTU4OS00OTAyLTg0OTYtNmQ5YzExZTQ3ZWJhXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A petty thief desperate for work muscles into the world of crime journalism and becomes the star of his own story as he blurs the line between observer and participant.",
+    "imdbRating": "7.8",
+    "imdbId": "tt2872718",
+    "imdbUrl": "https://www.imdb.com/title/tt2872718/",
+    "actors": "Jake Gyllenhaal, Rene Russo, Bill Paxton",
+    "director": "Dan Gilroy",
+    "genre": "Crime, Drama, Thriller",
     "streaming": null
   },
   {
-    "id": 172,
+    "id": 178,
     "title": "The guilty",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -2955,7 +3002,7 @@
     "streaming": null
   },
   {
-    "id": 173,
+    "id": 179,
     "title": "Southpaw",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -2971,7 +3018,7 @@
     "streaming": null
   },
   {
-    "id": 174,
+    "id": 180,
     "title": "The hangover",
     "category": "Comedy",
     "tags": [],
@@ -2987,7 +3034,7 @@
     "streaming": null
   },
   {
-    "id": 175,
+    "id": 181,
     "title": "Ace ventura: pet detective",
     "category": "Comedy",
     "tags": [],
@@ -3003,7 +3050,7 @@
     "streaming": null
   },
   {
-    "id": 176,
+    "id": 182,
     "title": "Dumb and dumber",
     "category": "Comedy",
     "tags": [],
@@ -3019,7 +3066,7 @@
     "streaming": null
   },
   {
-    "id": 177,
+    "id": 183,
     "title": "The big lebowski",
     "category": "Comedy",
     "tags": [],
@@ -3035,7 +3082,7 @@
     "streaming": null
   },
   {
-    "id": 178,
+    "id": 184,
     "title": "Rush hour",
     "category": "Comedy",
     "tags": [],
@@ -3051,7 +3098,7 @@
     "streaming": null
   },
   {
-    "id": 179,
+    "id": 185,
     "title": "Johny english",
     "category": "Comedy",
     "tags": [],
@@ -3067,7 +3114,7 @@
     "streaming": null
   },
   {
-    "id": 180,
+    "id": 186,
     "title": "Home alone",
     "category": "Comedy",
     "tags": [],
@@ -3083,7 +3130,7 @@
     "streaming": null
   },
   {
-    "id": 181,
+    "id": 187,
     "title": "Little miss sunshine",
     "category": "Comedy",
     "tags": [],
@@ -3099,7 +3146,7 @@
     "streaming": null
   },
   {
-    "id": 182,
+    "id": 188,
     "title": "Liar liar",
     "category": "Comedy",
     "tags": [],
@@ -3115,7 +3162,7 @@
     "streaming": null
   },
   {
-    "id": 183,
+    "id": 189,
     "title": "The cable guy",
     "category": "Comedy",
     "tags": [],
@@ -3131,7 +3178,7 @@
     "streaming": null
   },
   {
-    "id": 184,
+    "id": 190,
     "title": "The Midnight Meat Train",
     "category": "Honorable mentions",
     "tags": [],
@@ -3147,7 +3194,7 @@
     "streaming": null
   },
   {
-    "id": 185,
+    "id": 191,
     "title": "True lies",
     "category": "Honorable mentions",
     "tags": [],
@@ -3163,7 +3210,7 @@
     "streaming": null
   },
   {
-    "id": 186,
+    "id": 192,
     "title": "Bruce almighty",
     "category": "Honorable mentions",
     "tags": [],
@@ -3179,7 +3226,7 @@
     "streaming": null
   },
   {
-    "id": 187,
+    "id": 193,
     "title": "Yes man",
     "category": "Honorable mentions",
     "tags": [],
@@ -3195,7 +3242,7 @@
     "streaming": null
   },
   {
-    "id": 188,
+    "id": 194,
     "title": "Green mile",
     "category": "Honorable mentions",
     "tags": [],
@@ -3211,7 +3258,7 @@
     "streaming": null
   },
   {
-    "id": 189,
+    "id": 195,
     "title": "Casino",
     "category": "Honorable mentions",
     "tags": [],
@@ -3227,7 +3274,7 @@
     "streaming": null
   },
   {
-    "id": 190,
+    "id": 196,
     "title": "Karate kid",
     "category": "Honorable mentions",
     "tags": [],
@@ -3243,7 +3290,7 @@
     "streaming": null
   },
   {
-    "id": 191,
+    "id": 197,
     "title": "Outfit",
     "category": "Honorable mentions",
     "tags": [],
@@ -3259,7 +3306,7 @@
     "streaming": null
   },
   {
-    "id": 192,
+    "id": 198,
     "title": "Train to busan",
     "category": "Honorable mentions",
     "tags": [],
@@ -3275,7 +3322,7 @@
     "streaming": null
   },
   {
-    "id": 193,
+    "id": 199,
     "title": "I am legend",
     "category": "Honorable mentions",
     "tags": [],
@@ -3291,7 +3338,7 @@
     "streaming": null
   },
   {
-    "id": 194,
+    "id": 200,
     "title": "Exam",
     "category": "Honorable mentions",
     "tags": [],
@@ -3307,7 +3354,7 @@
     "streaming": null
   },
   {
-    "id": 195,
+    "id": 201,
     "title": "Bright",
     "category": "Honorable mentions",
     "tags": [],
