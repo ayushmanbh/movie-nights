@@ -144,7 +144,7 @@ const SuggestionForm = ({ isOpen, onClose }) => {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={e => e.stopPropagation()}>
-                <button className="modal-close" onClick={onClose}>&times;</button>
+                <button className="modal-close" onClick={onClose} aria-label="Close Modal">&times;</button>
 
                 <div className="suggestion-header">
                     <h2>Suggest <span className="highlight">Movies</span></h2>
