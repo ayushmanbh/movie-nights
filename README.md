@@ -2,8 +2,7 @@
 
 **My Movie Night** is a "vibe coded" web application designed to help you discover cinematic masterpieces and hidden gems. With a futuristic, neon-accented interface, it offers a curated collection of movies stamped with personal recommendations.
 
-![My Movie Night Screenshot](https://via.placeholder.com/800x400?text=My+Movie+Night+Preview) 
-*(Note: Replace with actual screenshot)*
+![My Movie Night Screenshot](./public/screenshot.png)
 
 ## ✨ Features
 
