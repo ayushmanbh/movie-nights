@@ -2,8 +2,7 @@
 
 **My Movie Night** is a "vibe coded" web application designed to help you discover cinematic masterpieces and hidden gems. With a futuristic, neon-accented interface, it offers a curated collection of movies stamped with personal recommendations.
 
-![My Movie Night Screenshot](https://via.placeholder.com/800x400?text=My+Movie+Night+Preview) 
-*(Note: Replace with actual screenshot)*
+![My Movie Night Screenshot](./public/screenshot.png)
 
 ## ✨ Features
 
@@ -15,41 +14,42 @@
     -   Filter by Actor
     -   Filter by Genre
     -   Sort by Title (A-Z, Z-A), Rating, or Year
+-   **Community Suggestions**: A glassmorphism modal for users to suggest movies, featuring:
+    -   **Bulk Submission**: Add multiple movies at once.
+    -   **Duplicate Detection**: Real-time checking against the existing catalog.
+    -   **Email Validation**: Rejects disposable/temporary email addresses for quality control.
+-   **Back to Top**: Smooth scroll button for easy navigation.
 -   **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
 -   **Vibe Coded Aesthetic**: Modern, dark-mode interface with glassmorphism and neon glows.
 
-## 🚀 Getting Started
+## 🧪 Testing
 
-### Prerequisites
+This project uses **Vitest** for robust unit testing.
 
--   Node.js (v14 or higher)
--   npm or yarn
+### Running Tests
+```bash
+npm test
+```
+This will run the test suite, covering:
+-   **MovieCard**: Rendering logic, fallbacks, and links.
+-   **SuggestionForm**: Validation, state management, and API interactions.
+-   **ErrorBoundary**: Verification of crash handling.
+-   **App Integration**: Lazy loading and main layout rendering.
 
-### Installation
+## 🔄 CI/CD Pipeline
 
-1.  Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/movie-nights.git
-    cd movie-nights
-    ```
+A GitHub Actions workflow (`.github/workflows/ci.yml`) is set up to ensure code quality.
 
-2.  Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3.  Start the development server:
-    ```bash
-    npm run dev
-    ```
-
-4.  Open your browser and navigate to `http://localhost:5173`.
+-   **Dev Branch**: Pushing to `dev` triggers the test suite.
+-   **Main Branch**: Pull Requests to `main` trigger tests. Merging to `main` is intended for production deployment (e.g., via Netlify).
 
 ## 🛠️ Tech Stack
 
 -   **Frontend**: React, Vite
 -   **Styling**: Vanilla CSS (Custom Design System)
--   **API**: OMDb API
+-   **Testing**: Vitest, React Testing Library
+-   **CI/CD**: GitHub Actions
+-   **API**: OMDb API, Formbold (Submissions), Debounce API (Email Validation)
 
 ## 📝 License
 
