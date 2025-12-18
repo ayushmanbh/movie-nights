@@ -9,6 +9,13 @@
   --glow-red: 0 0 10px rgba(255, 0, 60, 0.5);
   --font-header: 'Orbitron', sans-serif;
   --font-body: 'Inter', sans-serif;
+
+  /* Christmas Theme Colors */
+  --christmas-red: #ff4444;
+  --christmas-green: #44ff88;
+  --christmas-gold: #ffd700;
+  --glow-christmas-red: 0 0 15px rgba(255, 68, 68, 0.6);
+  --glow-christmas-green: 0 0 15px rgba(68, 255, 136, 0.6);
 }
 
 * {
@@ -31,6 +38,7 @@ body {
   padding: 2rem;
 }
 
+
 /* Header */
 .main-header {
   text-align: center;
@@ -50,6 +58,8 @@ h1 {
   color: var(--accent-blue);
   text-shadow: var(--glow-blue);
 }
+
+
 
 .subtitle {
   color: var(--text-secondary);
@@ -811,6 +821,7 @@ h1 {
   color: #fff;
 }
 
+
 @media (max-width: 768px) {
   .movie-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
@@ -824,4 +835,120 @@ h1 {
   h1 {
     font-size: 2.5rem;
   }
+}
+
+/* ============================================
+   CHRISTMAS THEME - Snowfall Animation
+   ============================================ */
+
+.snowflakes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  animation: fall linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0vh) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+/* Individual snowflake positions and timing */
+.snowflake:nth-child(1) {
+  left: 10%;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+.snowflake:nth-child(2) {
+  left: 20%;
+  animation-duration: 12s;
+  animation-delay: 1s;
+  font-size: 0.8em;
+}
+
+.snowflake:nth-child(3) {
+  left: 30%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  font-size: 1.2em;
+}
+
+.snowflake:nth-child(4) {
+  left: 40%;
+  animation-duration: 14s;
+  animation-delay: 0.5s;
+}
+
+.snowflake:nth-child(5) {
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: 1.5s;
+  font-size: 0.9em;
+}
+
+.snowflake:nth-child(6) {
+  left: 60%;
+  animation-duration: 9s;
+  animation-delay: 3s;
+}
+
+.snowflake:nth-child(7) {
+  left: 70%;
+  animation-duration: 13s;
+  animation-delay: 0.8s;
+  font-size: 1.1em;
+}
+
+.snowflake:nth-child(8) {
+  left: 80%;
+  animation-duration: 10s;
+  animation-delay: 2.5s;
+}
+
+.snowflake:nth-child(9) {
+  left: 90%;
+  animation-duration: 12s;
+  animation-delay: 1.2s;
+  font-size: 0.85em;
+}
+
+.snowflake:nth-child(10) {
+  left: 15%;
+  animation-duration: 11s;
+  animation-delay: 3.5s;
+}
+
+/* Christmas accent on movie cards */
+.movie-card:hover {
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 0 20px var(--glow-christmas-red),
+    0 0 30px var(--glow-christmas-green);
+}
+
+/* Festive glow on buttons */
+.btn-suggest-trigger:hover {
+  box-shadow:
+    0 0 20px var(--glow-christmas-gold);
 }
