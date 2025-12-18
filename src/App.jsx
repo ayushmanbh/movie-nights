@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import MovieCard from './components/MovieCard';
 import SkeletonCard from './components/SkeletonCard';
 import ControlBar from './components/ControlBar';
+import SuggestionForm from './components/SuggestionForm';
 import BackToTop from './components/BackToTop';
 import moviesData from './data/movies.json';
 
@@ -15,6 +16,8 @@ const App = () => {
         actor: '',
         sort: ''
     });
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     // Infinite Scroll State
     const [visibleCount, setVisibleCount] = useState(12);
@@ -122,6 +125,9 @@ const App = () => {
                     Welcome to My Movie Night, a hand-picked collection of cinematic masterpieces and hidden gems.
                     This list is curated to help you find your next great watch, organized by genre and stamped with our personal recommendations.
                 </p>
+                <button className="btn-suggest-trigger" onClick={() => setIsModalOpen(true)}>
+                    + Suggest a Movie
+                </button>
             </header>
 
             <ControlBar
@@ -166,6 +172,8 @@ const App = () => {
                     )}
                 </>
             )}
+
+            <SuggestionForm isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
 
             <BackToTop />
 
