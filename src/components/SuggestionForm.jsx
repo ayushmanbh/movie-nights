@@ -50,7 +50,7 @@ const SuggestionForm = ({ isOpen, onClose }) => {
         if (!email) {
             setEmailStatus('idle');
             setEmailError('');
-            return;
+            return false;
         }
 
         // 1. Regex Validation
@@ -58,10 +58,19 @@ const SuggestionForm = ({ isOpen, onClose }) => {
         if (!emailRegex.test(email)) {
             setEmailStatus('invalid');
             setEmailError('Please enter a valid email address.');
-            return;
+            return false;
         }
 
-        // 2. Disposable Email Check (API)
+        // 2. Block test/example domains
+        const testDomains = ['example.com', 'example.org', 'example.net', 'test.com', 'localhost'];
+        const domain = email.split('@')[1]?.toLowerCase();
+        if (testDomains.includes(domain)) {
+            setEmailStatus('invalid');
+            setEmailError('Please use a real email address.');
+            return false;
+        }
+
+        // 3. Disposable Email Check (API)
         setEmailStatus('validating');
         setEmailError('');
 
@@ -72,14 +81,17 @@ const SuggestionForm = ({ isOpen, onClose }) => {
             if (data.disposable === 'true') {
                 setEmailStatus('invalid');
                 setEmailError('Temporary email addresses are not allowed.');
+                return false;
             } else {
                 setEmailStatus('valid');
                 setEmailError('');
+                return true;
             }
         } catch (error) {
             // Fallback if API fails: just accept it if regex passed
             console.error('Validation API Error:', error);
             setEmailStatus('valid');
+            return true;
         }
     };
 
@@ -111,7 +123,15 @@ const SuggestionForm = ({ isOpen, onClose }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (suggestions.some(s => s.error) || emailStatus !== 'valid') return;
+        // Check for duplicate errors
+        if (suggestions.some(s => s.error)) return;
+
+        // Ensure email is validated before submission
+        if (emailStatus !== 'valid') {
+            // If email hasn't been validated yet, validate it now
+            const isValid = await validateEmail(userEmail);
+            if (!isValid) return;
+        }
 
         setStatus('sending');
 
