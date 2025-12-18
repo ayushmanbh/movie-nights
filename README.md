@@ -34,6 +34,8 @@ npm test
 This will run the test suite, covering:
 -   **MovieCard**: Rendering logic, fallbacks, and links.
 -   **SuggestionForm**: Validation, state management, and API interactions.
+-   **ErrorBoundary**: Verification of crash handling.
+-   **App Integration**: Lazy loading and main layout rendering.
 
 ## 🔄 CI/CD Pipeline
 

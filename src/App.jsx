@@ -2,7 +2,9 @@ import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import MovieCard from './components/MovieCard';
 import SkeletonCard from './components/SkeletonCard';
 import ControlBar from './components/ControlBar';
-import SuggestionForm from './components/SuggestionForm';
+const SuggestionForm = React.lazy(() => import('./components/SuggestionForm'));
+
+
 import BackToTop from './components/BackToTop';
 import moviesData from './data/movies.json';
 
@@ -173,7 +175,11 @@ const App = () => {
                 </>
             )}
 
-            <SuggestionForm isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+            {isModalOpen && (
+                <React.Suspense fallback={<div className="modal-overlay"><div className="loading-spinner"></div></div>}>
+                    <SuggestionForm isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+                </React.Suspense>
+            )}
 
             <BackToTop />
 
