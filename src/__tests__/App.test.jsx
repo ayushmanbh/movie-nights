@@ -26,7 +26,7 @@ describe('App Component', () => {
     it('opens Suggestion Modal when button is clicked', async () => {
         render(<App />);
 
-        const suggestBtn = screen.getByText('+ Suggest a Movie');
+        const suggestBtn = screen.getByText(/Suggest a Movie/i);
         fireEvent.click(suggestBtn);
 
         // It might take a moment to resolve the lazy import
