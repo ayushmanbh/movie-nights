@@ -7,6 +7,7 @@ const SuggestionForm = React.lazy(() => import('./components/SuggestionForm'));
 
 import BackToTop from './components/BackToTop';
 import moviesData from './data/movies.json';
+import { themeConfig } from './config/theme';
 
 const App = () => {
     const [allMovies, setAllMovies] = useState([]);
@@ -119,7 +120,29 @@ const App = () => {
     }, [allMovies]);
 
     return (
-        <div className="app-container">
+        <div className={`app-container ${themeConfig.enableChristmasTheme ? 'christmas-theme' : ''}`}>
+            {/* Christmas Corners */}
+            {themeConfig.enableChristmasTheme && (
+                <>
+                    <div className="christmas-corner christmas-corner-left"></div>
+                    <div className="christmas-corner christmas-corner-right"></div>
+                </>
+            )}
+            {/* Christmas Snowfall - Controlled by config */}
+            {themeConfig.enableChristmasTheme && (
+                <div className="snowflakes" aria-hidden="true">
+                    <div className="snowflake">❅</div>
+                    <div className="snowflake">❆</div>
+                    <div className="snowflake">❅</div>
+                    <div className="snowflake">❆</div>
+                    <div className="snowflake">❅</div>
+                    <div className="snowflake">❆</div>
+                    <div className="snowflake">❅</div>
+                    <div className="snowflake">❆</div>
+                    <div className="snowflake">❅</div>
+                    <div className="snowflake">❆</div>
+                </div>
+            )}
             <header className="main-header">
                 <h1>My Movie <span className="highlight">Night</span></h1>
                 <p className="subtitle">Curated Collection</p>
@@ -130,7 +153,7 @@ const App = () => {
                     so you spend less time scrolling and more time watching.
                 </p>
                 <button className="btn-suggest-trigger" onClick={() => setIsModalOpen(true)}>
-                    + Suggest a Movie
+                    {themeConfig.enableChristmasTheme ? '❄️' : '+'} Suggest a Movie
                 </button>
             </header>
 
@@ -186,7 +209,7 @@ const App = () => {
             <BackToTop />
 
             <footer className="main-footer">
-                <p>© 2025 My Movie Night. All rights reserved.</p>
+                <p>© 2025 My Movie Night. All rights reserved.{themeConfig.enableChristmasTheme && ' 🎄 Happy Holidays! 🎁'}</p>
                 <div className="disclaimer">
                     Disclaimer: This application is developed for educational and entertainment purposes.
                     All movie metadata and posters are properties of their respective owners (OMDb API).
