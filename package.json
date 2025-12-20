@@ -8,7 +8,8 @@
         "build": "vite build",
         "preview": "vite preview",
         "test": "vitest",
-        "test:ui": "vitest --ui"
+        "test:ui": "vitest --ui",
+        "generate-movies": "node scripts/generate-movies-json.js"
     },
     "dependencies": {
         "react": "^18.2.0",

@@ -30,12 +30,27 @@ async function fetchMovieData(title) {
 async function main() {
     console.log("Starting movie data generation...");
 
+    // Load existing data if it exists
+    let existingMovies = [];
+    if (fs.existsSync(OUTPUT_PATH)) {
+        try {
+            existingMovies = JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf-8'));
+            console.log(`Loaded ${existingMovies.length} existing movies from cache.`);
+        } catch (e) {
+            console.error("Failed to parse existing movies.json, starting fresh.");
+        }
+    }
+
+    const movieMap = new Map(existingMovies.map(m => [m.title.toLowerCase(), m]));
+
     const txtContent = fs.readFileSync(MOVIES_TXT_PATH, 'utf-8');
     const lines = txtContent.split('\n');
 
     const movies = [];
     let currentCategory = 'General';
-    let idCounter = 1;
+    let idCounter = Math.max(0, ...existingMovies.map(m => m.id)) + 1;
+    let skippedCount = 0;
+    let fetchedCount = 0;
 
     // Process lines
     const uniqueTitles = new Set();
@@ -69,10 +84,26 @@ async function main() {
         if (uniqueTitles.has(cleanTitle.toLowerCase())) continue;
         uniqueTitles.add(cleanTitle.toLowerCase());
 
+        // Check if we already have this movie
+        const existing = movieMap.get(cleanTitle.toLowerCase());
+
+        if (existing) {
+            // Update fields that might have changed in TXT (category, tags)
+            existing.category = currentCategory;
+            existing.tags = [];
+            if (type === 'must-watch') existing.tags.push('must-watch');
+            if (type === 'recommended') existing.tags.push('recommended');
+
+            movies.push(existing);
+            skippedCount++;
+            continue;
+        }
+
         console.log(`Fetching: ${cleanTitle}...`);
 
         // Fetch OMDb Data
         const omdbData = await fetchMovieData(cleanTitle);
+        fetchedCount++;
         await delay(100); // 100ms delay to be nice to the API
 
         const movieEntry = {
@@ -91,7 +122,7 @@ async function main() {
             director: omdbData?.Director || '',
             genre: omdbData?.Genre || '',
             // Streaming (can be added manually to movies.json later)
-            streaming: null
+            streaming: existing?.streaming || null
         };
 
         if (type === 'must-watch') movieEntry.tags.push('must-watch');
@@ -102,7 +133,10 @@ async function main() {
 
     // Write to file
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(movies, null, 2));
-    console.log(`\nSuccess! Generated ${movies.length} movies in ${OUTPUT_PATH}`);
+    console.log(`\nSuccess! Processed ${movies.length} movies.`);
+    console.log(`- Skipped (already in cache): ${skippedCount}`);
+    console.log(`- Newly fetched: ${fetchedCount}`);
+    console.log(`Output: ${OUTPUT_PATH}`);
 }
 
 main().catch(console.error);
