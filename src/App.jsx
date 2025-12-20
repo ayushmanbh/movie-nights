@@ -120,7 +120,14 @@ const App = () => {
     }, [allMovies]);
 
     return (
-        <div className="app-container">
+        <div className={`app-container ${themeConfig.enableChristmasTheme ? 'christmas-theme' : ''}`}>
+            {/* Christmas Corners */}
+            {themeConfig.enableChristmasTheme && (
+                <>
+                    <div className="christmas-corner christmas-corner-left"></div>
+                    <div className="christmas-corner christmas-corner-right"></div>
+                </>
+            )}
             {/* Christmas Snowfall - Controlled by config */}
             {themeConfig.enableChristmasTheme && (
                 <div className="snowflakes" aria-hidden="true">
@@ -137,7 +144,7 @@ const App = () => {
                 </div>
             )}
             <header className="main-header">
-                <h1>My Movie <span className="highlight">Night</span> {themeConfig.enableChristmasTheme && '🎅'}</h1>
+                <h1>My Movie <span className="highlight">Night</span></h1>
                 <p className="subtitle">Curated Collection</p>
                 <p className="site-description">
                     Tired of endlessly searching for the perfect movie and still coming up empty?

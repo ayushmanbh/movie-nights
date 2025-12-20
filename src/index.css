@@ -36,6 +36,48 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  /* Prevent corner images from causing scrollbits */
+}
+
+/* Christmas Corner Decorations */
+.christmas-corner {
+  position: absolute;
+  top: 0;
+  width: 30vw;
+  max-width: 450px;
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 5;
+  mix-blend-mode: screen;
+  filter: contrast(1.4) brightness(0.85) saturate(1.2);
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .christmas-corner {
+    width: 40vw;
+  }
+}
+
+.christmas-corner-left {
+  left: 0;
+  background-image: url('/christmas-corner-left.png');
+  background-position: top left;
+  mask-image: radial-gradient(circle at top left, black 20%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle at top left, black 20%, transparent 85%);
+}
+
+.christmas-corner-right {
+  right: 0;
+  background-image: url('/christmas-corner-right.png');
+  background-position: top right;
+  mask-image: radial-gradient(circle at top right, black 20%, transparent 85%);
+  -webkit-mask-image: radial-gradient(circle at top right, black 20%, transparent 85%);
 }
 
 
