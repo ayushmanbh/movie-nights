@@ -190,7 +190,7 @@
     "streaming": null
   },
   {
-    "id": 12,
+    "id": 222,
     "title": "The Dark knight",
     "category": "General",
     "tags": [
@@ -1926,7 +1926,119 @@
     "streaming": null
   },
   {
-    "id": 115,
+    "id": 209,
+    "title": "The Cabin in the Woods",
+    "category": "General",
+    "tags": [],
+    "year": "2011",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTUxNzYyMjg2N15BMl5BanBnXkFtZTcwMTExNzExNw@@._V1_SX300.jpg",
+    "description": "Five teens visit a remote cabin and explore its cellar, finding strange items. When Dana reads from a book there, she unleashes zombie killers. But the situation is more complex than it appears.",
+    "imdbRating": "7.0",
+    "imdbId": "tt1259521",
+    "imdbUrl": "https://www.imdb.com/title/tt1259521/",
+    "actors": "Kristen Connolly, Chris Hemsworth, Anna Hutchison",
+    "director": "Drew Goddard",
+    "genre": "Horror, Mystery, Thriller",
+    "streaming": null
+  },
+  {
+    "id": 210,
+    "title": "Don't Move",
+    "category": "General",
+    "tags": [],
+    "year": "2024",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZmFlMTMyMzQtNmI4NC00YTcyLTgwOGUtMzc4YjcyNDUyOGY3XkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A seasoned killer injects a grieving woman with a paralytic agent. She must run, fight and hide before her body shuts down.",
+    "imdbRating": "5.8",
+    "imdbId": "tt24807110",
+    "imdbUrl": "https://www.imdb.com/title/tt24807110/",
+    "actors": "Kelsey Asbille, Finn Wittrock, Moray Treadwell",
+    "director": "Brian Netto, Adam Schindler",
+    "genre": "Horror, Thriller",
+    "streaming": null
+  },
+  {
+    "id": 211,
+    "title": "Evil Dead Rise",
+    "category": "General",
+    "tags": [],
+    "year": "2023",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjM1ZmViMmYtOGYzZC00YzhmLWE0MTMtMzNjYzcyNjEwYWRkXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+    "imdbRating": "6.5",
+    "imdbId": "tt13345606",
+    "imdbUrl": "https://www.imdb.com/title/tt13345606/",
+    "actors": "Mirabai Pease, Richard Crouchley, Anna-Maree Thomas",
+    "director": "Lee Cronin",
+    "genre": "Horror",
+    "streaming": null
+  },
+  {
+    "id": 212,
+    "title": "It follows",
+    "category": "General",
+    "tags": [],
+    "year": "2014",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGZiYWRiYjAtODU0NS00YzAzLTk2MzQtZGVlMzVjM2M3MGQ3XkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
+    "imdbRating": "6.8",
+    "imdbId": "tt3235888",
+    "imdbUrl": "https://www.imdb.com/title/tt3235888/",
+    "actors": "Maika Monroe, Keir Gilchrist, Olivia Luccardi",
+    "director": "David Robert Mitchell",
+    "genre": "Horror, Mystery, Thriller",
+    "streaming": null
+  },
+  {
+    "id": 213,
+    "title": "Malignant",
+    "category": "General",
+    "tags": [],
+    "year": "2021",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTU3YjhmMTQtNmM5Yi00MDI2LTk0M2UtZGY5ZTNkYjIzNDE3XkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "Madison is paralyzed by shocking visions of grisly murders, and her torment worsens as she discovers that these waking dreams are in fact terrifying realities.",
+    "imdbRating": "6.2",
+    "imdbId": "tt3811906",
+    "imdbUrl": "https://www.imdb.com/title/tt3811906/",
+    "actors": "Annabelle Wallis, Maddie Hasson, George Young",
+    "director": "James Wan",
+    "genre": "Crime, Horror, Mystery",
+    "streaming": null
+  },
+  {
+    "id": 214,
+    "title": "The invisible man",
+    "category": "General",
+    "tags": [],
+    "year": "2020",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTM3NDJhZWUtZWM1Yy00ODk4LThjNmMtNDg3OGYzMGM2OGYzXkEyXkFqcGc@._V1_SX300.jpg",
+    "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+    "imdbRating": "7.1",
+    "imdbId": "tt1051906",
+    "imdbUrl": "https://www.imdb.com/title/tt1051906/",
+    "actors": "Elisabeth Moss, Oliver Jackson-Cohen, Harriet Dyer",
+    "director": "Leigh Whannell",
+    "genre": "Drama, Horror, Mystery",
+    "streaming": null
+  },
+  {
+    "id": 215,
+    "title": "The invitation",
+    "category": "General",
+    "tags": [],
+    "year": "2015",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTkzODMwNDkzOF5BMl5BanBnXkFtZTgwNDA4NzA1ODE@._V1_SX300.jpg",
+    "description": "When a man accepts an invitation to a dinner party hosted by his ex-wife, the unsettling past reopens old wounds and creates new tensions.",
+    "imdbRating": "6.6",
+    "imdbId": "tt2400463",
+    "imdbUrl": "https://www.imdb.com/title/tt2400463/",
+    "actors": "Logan Marshall-Green, Emayatzy Corinealdi, Michiel Huisman",
+    "director": "Karyn Kusama",
+    "genre": "Drama, Horror, Mystery",
+    "streaming": null
+  },
+  {
+    "id": 122,
     "title": "Interstellar",
     "category": "Space movies",
     "tags": [
@@ -1944,7 +2056,7 @@
     "streaming": null
   },
   {
-    "id": 116,
+    "id": 123,
     "title": "Gravity",
     "category": "Space movies",
     "tags": [
@@ -1962,7 +2074,7 @@
     "streaming": null
   },
   {
-    "id": 117,
+    "id": 124,
     "title": "Ad astra",
     "category": "Space movies",
     "tags": [],
@@ -1978,7 +2090,7 @@
     "streaming": null
   },
   {
-    "id": 118,
+    "id": 125,
     "title": "Life",
     "category": "Space movies",
     "tags": [],
@@ -1994,7 +2106,7 @@
     "streaming": null
   },
   {
-    "id": 119,
+    "id": 126,
     "title": "Sunshine",
     "category": "Space movies",
     "tags": [],
@@ -2010,7 +2122,7 @@
     "streaming": null
   },
   {
-    "id": 120,
+    "id": 127,
     "title": "Star trek",
     "category": "Space movies",
     "tags": [],
@@ -2026,7 +2138,7 @@
     "streaming": null
   },
   {
-    "id": 121,
+    "id": 128,
     "title": "2001 a space odyssey",
     "category": "Space movies",
     "tags": [
@@ -2044,7 +2156,7 @@
     "streaming": null
   },
   {
-    "id": 122,
+    "id": 129,
     "title": "Prometheus",
     "category": "Space movies",
     "tags": [
@@ -2062,7 +2174,7 @@
     "streaming": null
   },
   {
-    "id": 123,
+    "id": 130,
     "title": "Annihilation",
     "category": "Space movies",
     "tags": [],
@@ -2078,7 +2190,7 @@
     "streaming": null
   },
   {
-    "id": 124,
+    "id": 131,
     "title": "Alien",
     "category": "Alien",
     "tags": [],
@@ -2094,7 +2206,7 @@
     "streaming": null
   },
   {
-    "id": 125,
+    "id": 132,
     "title": "10 cloverfield lane",
     "category": "Alien",
     "tags": [
@@ -2112,7 +2224,7 @@
     "streaming": null
   },
   {
-    "id": 126,
+    "id": 133,
     "title": "District 9",
     "category": "Alien",
     "tags": [
@@ -2130,7 +2242,7 @@
     "streaming": null
   },
   {
-    "id": 127,
+    "id": 134,
     "title": "Super 8",
     "category": "Alien",
     "tags": [],
@@ -2146,7 +2258,7 @@
     "streaming": null
   },
   {
-    "id": 128,
+    "id": 135,
     "title": "Arrival",
     "category": "Alien",
     "tags": [],
@@ -2162,7 +2274,7 @@
     "streaming": null
   },
   {
-    "id": 129,
+    "id": 136,
     "title": "Independence day",
     "category": "Alien",
     "tags": [],
@@ -2178,7 +2290,7 @@
     "streaming": null
   },
   {
-    "id": 130,
+    "id": 137,
     "title": "Men in black",
     "category": "Alien",
     "tags": [
@@ -2196,7 +2308,7 @@
     "streaming": null
   },
   {
-    "id": 131,
+    "id": 138,
     "title": "E.T. the Extra-Terrestrial",
     "category": "Alien",
     "tags": [],
@@ -2212,7 +2324,7 @@
     "streaming": null
   },
   {
-    "id": 132,
+    "id": 139,
     "title": "A Quiet Place",
     "category": "Alien",
     "tags": [],
@@ -2228,7 +2340,7 @@
     "streaming": null
   },
   {
-    "id": 133,
+    "id": 140,
     "title": "Ender's game",
     "category": "Alien",
     "tags": [],
@@ -2244,7 +2356,7 @@
     "streaming": null
   },
   {
-    "id": 134,
+    "id": 141,
     "title": "Nope",
     "category": "Alien",
     "tags": [],
@@ -2260,7 +2372,7 @@
     "streaming": null
   },
   {
-    "id": 135,
+    "id": 142,
     "title": "Avatar",
     "category": "Alien",
     "tags": [
@@ -2278,7 +2390,7 @@
     "streaming": null
   },
   {
-    "id": 136,
+    "id": 143,
     "title": "Predator",
     "category": "Alien",
     "tags": [],
@@ -2294,7 +2406,7 @@
     "streaming": null
   },
   {
-    "id": 137,
+    "id": 144,
     "title": "Back to the future",
     "category": "Time travel",
     "tags": [],
@@ -2310,7 +2422,7 @@
     "streaming": null
   },
   {
-    "id": 138,
+    "id": 145,
     "title": "Synchronic",
     "category": "Time travel",
     "tags": [],
@@ -2326,7 +2438,7 @@
     "streaming": null
   },
   {
-    "id": 139,
+    "id": 146,
     "title": "The Terminator",
     "category": "Time travel",
     "tags": [],
@@ -2342,7 +2454,7 @@
     "streaming": null
   },
   {
-    "id": 140,
+    "id": 147,
     "title": "Terminator 2: Judgment Day",
     "category": "Time travel",
     "tags": [
@@ -2360,7 +2472,7 @@
     "streaming": null
   },
   {
-    "id": 141,
+    "id": 148,
     "title": "Terminator 3: Rise of the Machines",
     "category": "Time travel",
     "tags": [],
@@ -2376,7 +2488,7 @@
     "streaming": null
   },
   {
-    "id": 142,
+    "id": 149,
     "title": "Donnie darko",
     "category": "Time travel",
     "tags": [
@@ -2394,7 +2506,7 @@
     "streaming": null
   },
   {
-    "id": 143,
+    "id": 150,
     "title": "Groundhog day",
     "category": "Time travel",
     "tags": [],
@@ -2410,7 +2522,7 @@
     "streaming": null
   },
   {
-    "id": 144,
+    "id": 151,
     "title": "The time machine",
     "category": "Time travel",
     "tags": [],
@@ -2426,7 +2538,7 @@
     "streaming": null
   },
   {
-    "id": 145,
+    "id": 152,
     "title": "Oblivion",
     "category": "Tom cruise",
     "tags": [],
@@ -2442,7 +2554,7 @@
     "streaming": null
   },
   {
-    "id": 146,
+    "id": 153,
     "title": "War of the worlds",
     "category": "Tom cruise",
     "tags": [],
@@ -2458,7 +2570,7 @@
     "streaming": null
   },
   {
-    "id": 147,
+    "id": 154,
     "title": "Mission: Impossible",
     "category": "Tom cruise",
     "tags": [],
@@ -2474,7 +2586,7 @@
     "streaming": null
   },
   {
-    "id": 148,
+    "id": 155,
     "title": "Minority report",
     "category": "Tom cruise",
     "tags": [
@@ -2492,7 +2604,7 @@
     "streaming": null
   },
   {
-    "id": 149,
+    "id": 156,
     "title": "Edge of tomorrow",
     "category": "Tom cruise",
     "tags": [
@@ -2510,7 +2622,7 @@
     "streaming": null
   },
   {
-    "id": 150,
+    "id": 157,
     "title": "A few good men",
     "category": "Tom cruise",
     "tags": [],
@@ -2526,7 +2638,7 @@
     "streaming": null
   },
   {
-    "id": 151,
+    "id": 158,
     "title": "Vanilla sky",
     "category": "Tom cruise",
     "tags": [],
@@ -2542,7 +2654,7 @@
     "streaming": null
   },
   {
-    "id": 152,
+    "id": 159,
     "title": "Eyes wide shut",
     "category": "Tom cruise",
     "tags": [],
@@ -2558,7 +2670,7 @@
     "streaming": null
   },
   {
-    "id": 153,
+    "id": 160,
     "title": "The martian",
     "category": "Matt damon",
     "tags": [
@@ -2576,7 +2688,7 @@
     "streaming": null
   },
   {
-    "id": 154,
+    "id": 161,
     "title": "The Bourne Identity",
     "category": "Matt damon",
     "tags": [
@@ -2594,7 +2706,7 @@
     "streaming": null
   },
   {
-    "id": 155,
+    "id": 162,
     "title": "The Bourne Supremacy",
     "category": "Matt damon",
     "tags": [
@@ -2612,7 +2724,7 @@
     "streaming": null
   },
   {
-    "id": 156,
+    "id": 163,
     "title": "The Bourne Ultimatum",
     "category": "Matt damon",
     "tags": [
@@ -2630,7 +2742,7 @@
     "streaming": null
   },
   {
-    "id": 157,
+    "id": 164,
     "title": "Elysium",
     "category": "Matt damon",
     "tags": [],
@@ -2646,7 +2758,7 @@
     "streaming": null
   },
   {
-    "id": 158,
+    "id": 165,
     "title": "The talented mr. Ripley",
     "category": "Matt damon",
     "tags": [],
@@ -2662,7 +2774,7 @@
     "streaming": null
   },
   {
-    "id": 159,
+    "id": 166,
     "title": "Good will hunting",
     "category": "Matt damon",
     "tags": [
@@ -2680,7 +2792,7 @@
     "streaming": null
   },
   {
-    "id": 160,
+    "id": 167,
     "title": "The adjustment bureau",
     "category": "Matt damon",
     "tags": [],
@@ -2696,7 +2808,7 @@
     "streaming": null
   },
   {
-    "id": 161,
+    "id": 168,
     "title": "Curious case of benjamin button",
     "category": "Brad pitt",
     "tags": [
@@ -2714,7 +2826,7 @@
     "streaming": null
   },
   {
-    "id": 162,
+    "id": 169,
     "title": "World war z",
     "category": "Brad pitt",
     "tags": [
@@ -2732,7 +2844,7 @@
     "streaming": null
   },
   {
-    "id": 163,
+    "id": 170,
     "title": "Fight club",
     "category": "Brad pitt",
     "tags": [
@@ -2750,7 +2862,7 @@
     "streaming": null
   },
   {
-    "id": 164,
+    "id": 171,
     "title": "Fury",
     "category": "Brad pitt",
     "tags": [
@@ -2768,7 +2880,7 @@
     "streaming": null
   },
   {
-    "id": 165,
+    "id": 172,
     "title": "Inglorious bastards",
     "category": "Brad pitt",
     "tags": [],
@@ -2784,7 +2896,7 @@
     "streaming": null
   },
   {
-    "id": 166,
+    "id": 173,
     "title": "Meet joe black",
     "category": "Brad pitt",
     "tags": [],
@@ -2800,7 +2912,7 @@
     "streaming": null
   },
   {
-    "id": 167,
+    "id": 174,
     "title": "Deja vu",
     "category": "Denzel washington",
     "tags": [
@@ -2818,7 +2930,7 @@
     "streaming": null
   },
   {
-    "id": 168,
+    "id": 175,
     "title": "The Equalizer",
     "category": "Denzel washington",
     "tags": [],
@@ -2834,7 +2946,7 @@
     "streaming": null
   },
   {
-    "id": 169,
+    "id": 176,
     "title": "The Equalizer 2",
     "category": "Denzel washington",
     "tags": [],
@@ -2850,7 +2962,7 @@
     "streaming": null
   },
   {
-    "id": 170,
+    "id": 177,
     "title": "Training day",
     "category": "Denzel washington",
     "tags": [
@@ -2868,7 +2980,7 @@
     "streaming": null
   },
   {
-    "id": 171,
+    "id": 178,
     "title": "Inside man",
     "category": "Denzel washington",
     "tags": [],
@@ -2884,7 +2996,7 @@
     "streaming": null
   },
   {
-    "id": 172,
+    "id": 179,
     "title": "The little things",
     "category": "Denzel washington",
     "tags": [],
@@ -2900,7 +3012,7 @@
     "streaming": null
   },
   {
-    "id": 173,
+    "id": 180,
     "title": "The taking of pelham 123",
     "category": "Denzel washington",
     "tags": [
@@ -2918,7 +3030,7 @@
     "streaming": null
   },
   {
-    "id": 174,
+    "id": 181,
     "title": "Unstoppable",
     "category": "Denzel washington",
     "tags": [],
@@ -2934,7 +3046,7 @@
     "streaming": null
   },
   {
-    "id": 175,
+    "id": 182,
     "title": "Enemy",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -2950,7 +3062,7 @@
     "streaming": null
   },
   {
-    "id": 176,
+    "id": 183,
     "title": "Prisoners",
     "category": "Jake gyllenhal",
     "tags": [
@@ -2968,7 +3080,7 @@
     "streaming": null
   },
   {
-    "id": 177,
+    "id": 184,
     "title": "Nightcrawler",
     "category": "Jake gyllenhal",
     "tags": [
@@ -2986,7 +3098,7 @@
     "streaming": null
   },
   {
-    "id": 178,
+    "id": 185,
     "title": "The guilty",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -3002,7 +3114,7 @@
     "streaming": null
   },
   {
-    "id": 179,
+    "id": 186,
     "title": "Southpaw",
     "category": "Jake gyllenhal",
     "tags": [],
@@ -3018,7 +3130,7 @@
     "streaming": null
   },
   {
-    "id": 180,
+    "id": 187,
     "title": "The hangover",
     "category": "Comedy",
     "tags": [],
@@ -3034,7 +3146,7 @@
     "streaming": null
   },
   {
-    "id": 181,
+    "id": 188,
     "title": "Ace ventura: pet detective",
     "category": "Comedy",
     "tags": [],
@@ -3050,7 +3162,7 @@
     "streaming": null
   },
   {
-    "id": 182,
+    "id": 189,
     "title": "Dumb and dumber",
     "category": "Comedy",
     "tags": [],
@@ -3066,7 +3178,7 @@
     "streaming": null
   },
   {
-    "id": 183,
+    "id": 190,
     "title": "The big lebowski",
     "category": "Comedy",
     "tags": [],
@@ -3082,7 +3194,7 @@
     "streaming": null
   },
   {
-    "id": 184,
+    "id": 191,
     "title": "Rush hour",
     "category": "Comedy",
     "tags": [],
@@ -3098,7 +3210,7 @@
     "streaming": null
   },
   {
-    "id": 185,
+    "id": 192,
     "title": "Johny english",
     "category": "Comedy",
     "tags": [],
@@ -3114,7 +3226,7 @@
     "streaming": null
   },
   {
-    "id": 186,
+    "id": 193,
     "title": "Home alone",
     "category": "Comedy",
     "tags": [],
@@ -3130,7 +3242,7 @@
     "streaming": null
   },
   {
-    "id": 187,
+    "id": 194,
     "title": "Little miss sunshine",
     "category": "Comedy",
     "tags": [],
@@ -3146,7 +3258,7 @@
     "streaming": null
   },
   {
-    "id": 188,
+    "id": 195,
     "title": "Liar liar",
     "category": "Comedy",
     "tags": [],
@@ -3162,7 +3274,7 @@
     "streaming": null
   },
   {
-    "id": 189,
+    "id": 196,
     "title": "The cable guy",
     "category": "Comedy",
     "tags": [],
@@ -3178,7 +3290,7 @@
     "streaming": null
   },
   {
-    "id": 190,
+    "id": 197,
     "title": "The Midnight Meat Train",
     "category": "Honorable mentions",
     "tags": [],
@@ -3194,7 +3306,7 @@
     "streaming": null
   },
   {
-    "id": 191,
+    "id": 198,
     "title": "True lies",
     "category": "Honorable mentions",
     "tags": [],
@@ -3210,7 +3322,7 @@
     "streaming": null
   },
   {
-    "id": 192,
+    "id": 199,
     "title": "Bruce almighty",
     "category": "Honorable mentions",
     "tags": [],
@@ -3226,7 +3338,7 @@
     "streaming": null
   },
   {
-    "id": 193,
+    "id": 200,
     "title": "Yes man",
     "category": "Honorable mentions",
     "tags": [],
@@ -3242,7 +3354,7 @@
     "streaming": null
   },
   {
-    "id": 194,
+    "id": 201,
     "title": "Green mile",
     "category": "Honorable mentions",
     "tags": [],
@@ -3258,7 +3370,7 @@
     "streaming": null
   },
   {
-    "id": 195,
+    "id": 202,
     "title": "Casino",
     "category": "Honorable mentions",
     "tags": [],
@@ -3274,7 +3386,7 @@
     "streaming": null
   },
   {
-    "id": 196,
+    "id": 203,
     "title": "Karate kid",
     "category": "Honorable mentions",
     "tags": [],
@@ -3290,7 +3402,7 @@
     "streaming": null
   },
   {
-    "id": 197,
+    "id": 204,
     "title": "Outfit",
     "category": "Honorable mentions",
     "tags": [],
@@ -3306,7 +3418,7 @@
     "streaming": null
   },
   {
-    "id": 198,
+    "id": 205,
     "title": "Train to busan",
     "category": "Honorable mentions",
     "tags": [],
@@ -3322,7 +3434,7 @@
     "streaming": null
   },
   {
-    "id": 199,
+    "id": 206,
     "title": "I am legend",
     "category": "Honorable mentions",
     "tags": [],
@@ -3338,7 +3450,7 @@
     "streaming": null
   },
   {
-    "id": 200,
+    "id": 207,
     "title": "Exam",
     "category": "Honorable mentions",
     "tags": [],
@@ -3354,7 +3466,7 @@
     "streaming": null
   },
   {
-    "id": 201,
+    "id": 208,
     "title": "Bright",
     "category": "Honorable mentions",
     "tags": [],

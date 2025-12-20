@@ -124,8 +124,10 @@ const App = () => {
                 <h1>My Movie <span className="highlight">Night</span></h1>
                 <p className="subtitle">Curated Collection</p>
                 <p className="site-description">
-                    Welcome to My Movie Night, a hand-picked collection of cinematic masterpieces and hidden gems.
-                    This list is curated to help you find your next great watch, organized by genre and stamped with our personal recommendations.
+                    Tired of endlessly searching for the perfect movie and still coming up empty?
+                    Welcome to My Movie Night, a carefully curated collection of cinematic masterpieces and hidden gems.
+                    Every title is hand-picked, organized by genre, and personally recommended
+                    so you spend less time scrolling and more time watching.
                 </p>
                 <button className="btn-suggest-trigger" onClick={() => setIsModalOpen(true)}>
                     + Suggest a Movie
