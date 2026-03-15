@@ -8,11 +8,35 @@ const __dirname = path.dirname(__filename);
 const MOVIES_TXT_PATH = path.join(__dirname, '../public/movies.txt');
 const OUTPUT_PATH = path.join(__dirname, '../src/data/movies.json');
 
+// Cloud URL for movies.txt (e.g. GitHub Gist raw URL)
+const MOVIES_TXT_URL = process.env.MOVIES_TXT_URL;
+
 // OMDb API Key
 const API_KEY = 'trilogy';
 
 // Helper to delay (to avoid rate limits)
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// Fetch movies.txt content — from cloud URL if available, otherwise local file
+async function fetchMoviesTxt() {
+    if (MOVIES_TXT_URL) {
+        try {
+            console.log(`Fetching movies.txt from: ${MOVIES_TXT_URL}`);
+            const res = await fetch(MOVIES_TXT_URL);
+            if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+            const content = await res.text();
+            console.log(`Successfully fetched movies.txt from cloud (${content.length} bytes)`);
+            return content;
+        } catch (e) {
+            console.warn(`Failed to fetch from URL: ${e.message}`);
+            console.warn('Falling back to local movies.txt...');
+        }
+    } else {
+        console.log('No MOVIES_TXT_URL set, using local movies.txt');
+    }
+
+    return fs.readFileSync(MOVIES_TXT_PATH, 'utf-8');
+}
 
 async function fetchMovieData(title) {
     try {
@@ -43,7 +67,7 @@ async function main() {
 
     const movieMap = new Map(existingMovies.map(m => [m.title.toLowerCase(), m]));
 
-    const txtContent = fs.readFileSync(MOVIES_TXT_PATH, 'utf-8');
+    const txtContent = await fetchMoviesTxt();
     const lines = txtContent.split('\n');
 
     const movies = [];

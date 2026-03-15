@@ -19,6 +19,7 @@ Saving private ryan**
 28 days later*
 28 weeks later
 28 years later
+28 Years Later: The Bone Temple
 Contagion
 Logan
 Escape room 
@@ -77,6 +78,8 @@ Parasite
 Oldboy
 American history X
 Knives out*
+Glass Onion
+Wake Up Dead Man
 Hereditary*
 Sherlock Holmes
 The devil's advocate 
@@ -107,7 +110,6 @@ No country for old man**
 Lord of the rings
 Enemy of the state
 Goodfellas*
-Shining*
 Children of men**
 American sniper
 Limitless
@@ -120,7 +122,28 @@ It follows
 Malignant
 The invisible man
 The invitation
+Sinners
+The Pursuit of Happyness
+Jumanji
+Mad Max: Fury Road
 
+Superhero:
+
+Spider-Man
+Spider-Man 2
+Spider-Man: Into the Spider-Verse
+Black Panther
+Avengers: Endgame
+The Avengers
+The Dark Knight
+The Batman
+Man of Steel
+Iron Man
+The Incredible Hulk
+Logan
+Captain America: The Winter Soldier
+Hellboy II: The Golden Army
+V for Vendetta
 
 Space movies:
 
@@ -162,6 +185,22 @@ Terminator 3: Rise of the Machines
 Donnie darko*
 Groundhog day
 The time machine
+
+Horror:
+
+Shining
+Hereditary
+The Silence of the Lambs
+The Conjuring
+The Omen
+Insidious
+IT
+IT'S WHAT'S INSIDE
+In the Tall Grass
+Weapons
+It Follows
+Get Out
+Hush
 
 Tom cruise:
 
@@ -242,3 +281,11 @@ Train to busan
 I am legend
 Exam
 Bright
+Unbreakable
+Deadpool
+The Amazing Spider-Man
+The Incredibles
+The Dark Knight Rises
+Watchmen
+The Old Guard
+Birdman
