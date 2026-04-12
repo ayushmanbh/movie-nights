@@ -8,6 +8,7 @@ const SuggestionForm = React.lazy(() => import('./components/SuggestionForm'));
 import BackToTop from './components/BackToTop';
 import moviesData from './data/movies.json';
 import { themeConfig } from './config/theme';
+import { APP_CONTENT } from './constants/content';
 
 const App = () => {
     const [allMovies, setAllMovies] = useState([]);
@@ -145,16 +146,10 @@ const App = () => {
             )}
             <header className="main-header">
                 <h1>My Movie <span className="highlight">Night</span></h1>
-                <p className="subtitle">Curated Collection</p>
+                <p className="subtitle">{APP_CONTENT.subtitle}</p>
                 <p className="site-description">
-                    Tired of endlessly searching for the perfect movie and still coming up empty?
-                    Welcome to My Movie Night, a carefully curated collection of cinematic masterpieces and hidden gems.
-                    Every title is hand-picked, organized by genre, and personally recommended
-                    so you spend less time scrolling and more time watching.
+                    {APP_CONTENT.description}
                 </p>
-                <button className="btn-suggest-trigger" onClick={() => setIsModalOpen(true)}>
-                    {themeConfig.enableChristmasTheme ? '❄️' : '+'} Suggest a Movie
-                </button>
             </header>
 
             <ControlBar
@@ -206,14 +201,17 @@ const App = () => {
                 </React.Suspense>
             )}
 
+            <button className="floating-suggest-btn" onClick={() => setIsModalOpen(true)}>
+                <span className="icon">{themeConfig.enableChristmasTheme ? '❄️' : '+'}</span>
+                <span className="text">Suggest a Movie</span>
+            </button>
+
             <BackToTop />
 
             <footer className="main-footer">
-                <p>© 2025 My Movie Night. All rights reserved.{themeConfig.enableChristmasTheme && ' 🎄 Happy Holidays! 🎁'}</p>
+                <p>{APP_CONTENT.footer.copyright}{themeConfig.enableChristmasTheme && ' 🎄 Happy Holidays! 🎁'}</p>
                 <div className="disclaimer">
-                    Disclaimer: This application is developed for educational and entertainment purposes.
-                    All movie metadata and posters are properties of their respective owners (OMDb API).
-                    This is a 'vibe coded' application designed to explore modern web aesthetics and is not intended for commercial use.
+                    {APP_CONTENT.footer.disclaimer}
                 </div>
             </footer>
         </div>
