@@ -152,9 +152,6 @@ const App = () => {
                     Every title is hand-picked, organized by genre, and personally recommended
                     so you spend less time scrolling and more time watching.
                 </p>
-                <button className="btn-suggest-trigger" onClick={() => setIsModalOpen(true)}>
-                    {themeConfig.enableChristmasTheme ? '❄️' : '+'} Suggest a Movie
-                </button>
             </header>
 
             <ControlBar
@@ -205,6 +202,11 @@ const App = () => {
                     <SuggestionForm isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
                 </React.Suspense>
             )}
+
+            <button className="floating-suggest-btn" onClick={() => setIsModalOpen(true)}>
+                <span className="icon">{themeConfig.enableChristmasTheme ? '❄️' : '+'}</span>
+                <span className="text">Suggest a Movie</span>
+            </button>
 
             <BackToTop />
 
