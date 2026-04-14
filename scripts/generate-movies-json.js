@@ -66,6 +66,37 @@ async function fetchMovieData(title) {
     return null;
 }
 
+// Fetch the latest comment from the Gist
+async function fetchLatestGistComment() {
+    if (!MOVIES_TXT_URL || !MOVIES_TXT_URL.includes('gist.githubusercontent.com')) return null;
+    
+    try {
+        const url = new URL(MOVIES_TXT_URL);
+        const parts = url.pathname.split('/');
+        // Format: /username/gist_id/raw/...
+        const gistId = parts[2];
+        
+        if (!gistId) return null;
+
+        const res = await fetch(`https://api.github.com/gists/${gistId}/comments`, {
+            headers: { 'User-Agent': 'Movie-Night-Bot' }
+        });
+        
+        if (!res.ok) return null;
+        
+        const comments = await res.json();
+        if (comments && comments.length > 0) {
+            // Get the most recent comment
+            const latest = comments[comments.length - 1].body;
+            console.log(`Extracted latest Gist comment: "${latest}"`);
+            return latest;
+        }
+    } catch (e) {
+        console.warn('Failed to fetch gist comments');
+    }
+    return null;
+}
+
 async function main() {
     console.log("Starting movie data generation...");
 
@@ -90,6 +121,14 @@ async function main() {
     let idCounter = Math.max(0, ...existingMovies.map(m => m.id)) + 1;
     let skippedCount = 0;
     let fetchedCount = 0;
+    let commitMessage = "[Bot] Automated sync with movies.txt gist";
+    
+    const latestComment = await fetchLatestGistComment();
+    if (latestComment) {
+        // Strip newlines or excessively long comments to keep git commits clean
+        const cleanComment = latestComment.replace(/\n/g, ' ').substring(0, 72);
+        commitMessage = `[Bot] Sync: ${cleanComment}`;
+    }
 
     // Process lines
     const uniqueTitles = new Set();
@@ -172,6 +211,12 @@ async function main() {
 
     // Write to file
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(movies, null, 2));
+    
+    // Export commit message to GitHub Actions if running in CI
+    if (process.env.GITHUB_ENV) {
+        fs.appendFileSync(process.env.GITHUB_ENV, `CUSTOM_COMMIT_MSG<<EOF\n${commitMessage}\nEOF\n`);
+    }
+
     console.log(`\nSuccess! Processed ${movies.length} movies.`);
     console.log(`- Skipped (already in cache): ${skippedCount}`);
     console.log(`- Newly fetched: ${fetchedCount}`);
