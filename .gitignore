@@ -122,6 +122,7 @@ dist
 # Vite
 dist-ssr
 *.local
+vite.config.*.timestamp*
 
 # OS
 .DS_Store
