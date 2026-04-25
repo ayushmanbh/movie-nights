@@ -2444,6 +2444,22 @@
     "streaming": null
   },
   {
+    "id": 262,
+    "title": "Project Hail Mary",
+    "category": "Space movies",
+    "tags": [],
+    "year": "2026",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "description": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun and that an unexpected friendship may be the key.",
+    "imdbRating": "8.4",
+    "imdbId": "tt12042730",
+    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
+    "actors": "Ryan Gosling, Sandra Hüller, James Ortiz",
+    "director": "Phil Lord, Christopher Miller",
+    "genre": "Adventure, Comedy, Sci-Fi",
+    "streaming": null
+  },
+  {
     "id": 131,
     "title": "Alien",
     "category": "Alien",
